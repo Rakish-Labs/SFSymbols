@@ -8,6 +8,10 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Camera & Photos
+    /// - Nature
     static var cameraMacro: SFSymbol { .init(rawValue: "camera.macro") }
 
     /// 􁂃
@@ -16,6 +20,11 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Camera & Photos
+    /// - Nature
+    /// - Variable
     static var cameraMacroCircle: SFSymbol { .init(rawValue: "camera.macro.circle") }
 
     /// 􁂄
@@ -25,6 +34,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Camera & Photos
+    /// - Multicolor
+    /// - Nature
     static var cameraMacroCircleFill: SFSymbol { .init(rawValue: "camera.macro.circle.fill") }
 
     /// 􁑢
@@ -46,6 +60,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Objects & Tools
+    /// - Privacy & Security
     static var keyViewfinder: SFSymbol { .init(rawValue: "key.viewfinder") }
 
     /// 􁏺
@@ -54,6 +72,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Human
+    /// - Objects & Tools
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to creating or signing in with a passkey.
     static var personBadgeKey: SFSymbol { .init(rawValue: "person.badge.key") }
@@ -64,6 +86,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Human
+    /// - Objects & Tools
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to creating or signing in with a passkey.
     static var personBadgeKeyFill: SFSymbol { .init(rawValue: "person.badge.key.fill") }

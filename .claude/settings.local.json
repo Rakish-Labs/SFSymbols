@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/Dan/Developer/github/SFSafeSymbols log --oneline -10)",
+      "Bash(git -C /Users/Dan/Developer/github/SFSafeSymbols log --oneline --not --remotes -10)",
+      "Bash(git -C /Users/Dan/Developer/github/SFSafeSymbols branch:*)",
+      "Bash(git -C /Users/Dan/Developer/github/SFSafeSymbols log dev --oneline --not stable)",
+      "Bash(git checkout:*)"
+    ]
+  }
+}

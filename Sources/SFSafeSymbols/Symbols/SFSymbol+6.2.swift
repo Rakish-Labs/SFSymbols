@@ -9,6 +9,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     ///
+    /// Categories:
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
     static var airpodsGen4: SFSymbol { .init(rawValue: "airpods.gen4") }
 
@@ -17,6 +20,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Devices
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
     static var airpodsGen4ChargingcaseWireless: SFSymbol { .init(rawValue: "airpods.gen4.chargingcase.wireless") }
@@ -27,6 +33,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     ///
+    /// Categories:
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
     static var airpodsGen4ChargingcaseWirelessFill: SFSymbol { .init(rawValue: "airpods.gen4.chargingcase.wireless.fill") }
 
@@ -35,6 +44,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Devices
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
     static var airpodsGen4Left: SFSymbol { .init(rawValue: "airpods.gen4.left") }
@@ -45,6 +57,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     ///
+    /// Categories:
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
     static var airpodsGen4Right: SFSymbol { .init(rawValue: "airpods.gen4.right") }
 
@@ -54,6 +69,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor
+    ///
+    /// Categories:
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Writing Tools.
@@ -87,6 +105,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Automotive
+    /// - Human
     static var figureSeatedSideLeftAirDistributionUpperAndMiddleAndLower: SFSymbol { .init(rawValue: "figure.seated.side.left.air.distribution.upper.and.middle.and.lower") }
 
     /// 􂸟
@@ -95,6 +117,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Automotive
+    /// - Human
     static var figureSeatedSideRightAirDistributionUpperAndMiddleAndLower: SFSymbol { .init(rawValue: "figure.seated.side.right.air.distribution.upper.and.middle.and.lower") }
 
     /// 􂸔
@@ -103,6 +129,11 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
+    /// - Objects & Tools
+    /// - Variable
     static var headphonesDots: SFSymbol { .init(rawValue: "headphones.dots") }
 
     /// 􂹩
@@ -120,6 +151,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
     static var infoTriangleFill: SFSymbol { .init(rawValue: "info.triangle.fill") }
 
     /// 􂸆
@@ -128,6 +162,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Human
+    /// - Variable
     static var insetFilledRectangleAndPersonFilledCircle: SFSymbol { .init(rawValue: "inset.filled.rectangle.and.person.filled.circle") }
 
     /// 􂸇
@@ -137,6 +175,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Human
+    /// - Multicolor
     static var insetFilledRectangleAndPersonFilledCircleFill: SFSymbol { .init(rawValue: "inset.filled.rectangle.and.person.filled.circle.fill") }
 
     /// 􂷼
@@ -144,6 +186,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var receipt: SFSymbol { .init(rawValue: "receipt") }
 
     /// 􂷽
@@ -151,6 +196,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var receiptFill: SFSymbol { .init(rawValue: "receipt.fill") }
 
     /// 􂸊
@@ -159,6 +207,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Editing
+    /// - Objects & Tools
     static var wandAndOutline: SFSymbol { .init(rawValue: "wand.and.outline") }
 
     /// 􂸋
@@ -167,5 +219,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Editing
+    /// - Objects & Tools
     static var wandAndOutlineInverse: SFSymbol { .init(rawValue: "wand.and.outline.inverse") }
 }

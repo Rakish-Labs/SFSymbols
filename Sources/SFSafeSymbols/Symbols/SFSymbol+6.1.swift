@@ -18,6 +18,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
     static var boltHouseFill: SFSymbol { .init(rawValue: "bolt.house.fill") }
 
     /// 􂷔
@@ -26,6 +29,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    ///
+    /// Categories:
+    /// - Devices
     static var cableConnectorVideo: SFSymbol { .init(rawValue: "cable.connector.video") }
 
     /// 􂴾
@@ -34,6 +40,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Automotive
+    /// - Variable
     static var carTopRadiowaves2FrontLeftFrontFrontRight: SFSymbol { .init(rawValue: "car.top.radiowaves.2.front.left.front.front.right") }
 
     /// 􂴿
@@ -42,6 +52,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Automotive
+    /// - Variable
     static var carTopRadiowaves2FrontLeftFrontFrontRightFill: SFSymbol { .init(rawValue: "car.top.radiowaves.2.front.left.front.front.right.fill") }
 
     /// 􂵂
@@ -50,6 +64,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Automotive
+    /// - Variable
     static var carTopRadiowaves2RearLeftRearRearRight: SFSymbol { .init(rawValue: "car.top.radiowaves.2.rear.left.rear.rear.right") }
 
     /// 􂵃
@@ -58,6 +76,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Automotive
+    /// - Variable
     static var carTopRadiowaves2RearLeftRearRearRightFill: SFSymbol { .init(rawValue: "car.top.radiowaves.2.rear.left.rear.rear.right.fill") }
 
     /// 􂵆
@@ -66,6 +88,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Automotive
+    /// - Variable
     static var dotCarTopRadiowaves2RearLeftRearRearRight: SFSymbol { .init(rawValue: "dot.car.top.radiowaves.2.rear.left.rear.rear.right") }
 
     /// 􂵇
@@ -74,6 +100,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Automotive
+    /// - Variable
     static var dotCarTopRadiowaves2RearLeftRearRearRightFill: SFSymbol { .init(rawValue: "dot.car.top.radiowaves.2.rear.left.rear.rear.right.fill") }
 
     /// 􀛫
@@ -81,6 +111,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Communication
     static var envelopeStack: SFSymbol { .init(rawValue: "envelope.stack") }
 
     /// 􀛬
@@ -88,6 +121,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Communication
     static var envelopeStackFill: SFSymbol { .init(rawValue: "envelope.stack.fill") }
 
     /// 􂷩
@@ -96,6 +132,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Communication
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
     static var exclamationmarkMessage: SFSymbol { .init(rawValue: "exclamationmark.message") }
@@ -108,6 +147,10 @@ public extension SFSymbol {
     /// - Hierarchical
     /// - Multicolor
     ///
+    /// Categories:
+    /// - Communication
+    /// - Multicolor
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
     static var exclamationmarkMessageFill: SFSymbol { .init(rawValue: "exclamationmark.message.fill") }
 
@@ -117,6 +160,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Human
     static var handThumbsdownSlash: SFSymbol { .init(rawValue: "hand.thumbsdown.slash") }
 
     /// 􂶪
@@ -125,6 +171,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Human
     static var handThumbsdownSlashFill: SFSymbol { .init(rawValue: "hand.thumbsdown.slash.fill") }
 
     /// 􂶥
@@ -133,6 +182,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Human
     static var handThumbsupSlash: SFSymbol { .init(rawValue: "hand.thumbsup.slash") }
 
     /// 􂶦
@@ -141,6 +193,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Human
     static var handThumbsupSlashFill: SFSymbol { .init(rawValue: "hand.thumbsup.slash.fill") }
 
     /// 􂶟
@@ -157,6 +212,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Arrows
+    /// - Multicolor
     static var memoriesBadgeCheckmark: SFSymbol { .init(rawValue: "memories.badge.checkmark") }
 
     /// 􂷁
@@ -166,6 +225,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Arrows
+    /// - Multicolor
     static var memoriesBadgeXmark: SFSymbol { .init(rawValue: "memories.badge.xmark") }
 
     /// 􂷐
@@ -174,6 +237,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Camera & Photos
     static var photoBadgeMagnifyingglass: SFSymbol { .init(rawValue: "photo.badge.magnifyingglass") }
 
     /// 􂷑
@@ -182,6 +248,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Camera & Photos
     static var photoBadgeMagnifyingglassFill: SFSymbol { .init(rawValue: "photo.badge.magnifyingglass.fill") }
 
     /// 􂷫
@@ -194,6 +263,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Communication
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
     static var questionmarkMessage: SymbolWith1Localization<Ar_v6_2> { .init(rawValue: "questionmark.message") }
@@ -208,6 +280,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor
+    ///
+    /// Categories:
+    /// - Communication
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Messages app.
@@ -234,6 +310,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
     static var squareAndArrowDownBadgeCheckmark: SFSymbol { .init(rawValue: "square.and.arrow.down.badge.checkmark") }
 
     /// 􂷢
@@ -242,6 +321,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor
+    ///
+    /// Categories:
     /// - Multicolor
     static var squareAndArrowDownBadgeCheckmarkFill: SFSymbol { .init(rawValue: "square.and.arrow.down.badge.checkmark.fill") }
 
@@ -252,6 +334,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
     static var squareAndArrowDownBadgeXmark: SFSymbol { .init(rawValue: "square.and.arrow.down.badge.xmark") }
 
     /// 􂷦
@@ -260,6 +345,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor
+    ///
+    /// Categories:
     /// - Multicolor
     static var squareAndArrowDownBadgeXmarkFill: SFSymbol { .init(rawValue: "square.and.arrow.down.badge.xmark.fill") }
 
@@ -270,6 +358,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Communication
+    /// - Multicolor
+    /// - Variable
     static var waveformBadgeCheckmark: SFSymbol { .init(rawValue: "waveform.badge.checkmark") }
 
     /// 􂷞
@@ -279,6 +372,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Communication
+    /// - Multicolor
+    /// - Variable
     static var waveformBadgeXmark: SFSymbol { .init(rawValue: "waveform.badge.xmark") }
 
     /// 􂵊
@@ -287,6 +385,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var waveformPathEcgMagnifyingglass: SFSymbol { .init(rawValue: "waveform.path.ecg.magnifyingglass") }
 
     /// 􂷚
@@ -310,6 +411,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Health
+    /// - Objects & Tools
     static var waveformPathEcgTextClipboard: SymbolWith1Localization<Rtl> { .init(rawValue: "waveform.path.ecg.text.clipboard") }
 
     /// 􂵌
@@ -322,6 +427,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Health
+    /// - Objects & Tools
     static var waveformPathEcgTextClipboardFill: SymbolWith1Localization<Rtl> { .init(rawValue: "waveform.path.ecg.text.clipboard.fill") }
 
     /// 􀳼

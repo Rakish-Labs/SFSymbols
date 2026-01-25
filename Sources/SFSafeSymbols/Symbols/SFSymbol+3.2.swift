@@ -9,6 +9,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     ///
+    /// Categories:
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
     static var airpodGen3Left: SFSymbol { .init(rawValue: "airpod.gen3.left") }
 
@@ -17,6 +20,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Devices
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
     static var airpodGen3Right: SFSymbol { .init(rawValue: "airpod.gen3.right") }
@@ -27,6 +33,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     ///
+    /// Categories:
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
     static var airpodsGen3: SFSymbol { .init(rawValue: "airpods.gen3") }
 
@@ -36,6 +45,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     ///
+    /// Categories:
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
     static var airpodsGen3ChargingcaseWireless: SFSymbol { .init(rawValue: "airpods.gen3.chargingcase.wireless") }
 
@@ -44,6 +56,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Devices
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
     static var airpodsGen3ChargingcaseWirelessFill: SFSymbol { .init(rawValue: "airpods.gen3.chargingcase.wireless.fill") }
@@ -141,6 +156,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Camera & Photos
     static var square3Layers3dDownLeftSlash: SFSymbol { .init(rawValue: "square.3.layers.3d.down.left.slash") }
 
     /// 􁋼
@@ -149,6 +167,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Camera & Photos
     static var square3Layers3dDownRightSlash: SFSymbol { .init(rawValue: "square.3.layers.3d.down.right.slash") }
 
     /// 􁌅

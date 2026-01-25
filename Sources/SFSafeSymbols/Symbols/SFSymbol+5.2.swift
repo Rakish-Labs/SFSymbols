@@ -10,6 +10,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
     static var squareAndArrowUpBadgeClock: SFSymbol { .init(rawValue: "square.and.arrow.up.badge.clock") }
 
     /// 􂋏
@@ -18,6 +21,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor
+    ///
+    /// Categories:
     /// - Multicolor
     static var squareAndArrowUpBadgeClockFill: SFSymbol { .init(rawValue: "square.and.arrow.up.badge.clock.fill") }
 }

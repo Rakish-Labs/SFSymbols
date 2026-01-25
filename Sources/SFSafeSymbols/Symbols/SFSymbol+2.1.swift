@@ -10,6 +10,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Variable
+    /// - Weather
     static var aqiHigh: SFSymbol { .init(rawValue: "aqi.high") }
 
     /// 􀴾
@@ -19,6 +24,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Variable
+    /// - Weather
     static var aqiLow: SFSymbol { .init(rawValue: "aqi.low") }
 
     /// 􀴿
@@ -28,6 +37,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Variable
+    /// - Weather
     static var aqiMedium: SFSymbol { .init(rawValue: "aqi.medium") }
 
     /// 􀮰
@@ -36,6 +49,11 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    ///
+    /// Categories:
+    /// - Commerce
+    /// - Indices
+    /// - Variable
     static var brazilianrealsignCircle: SFSymbol { .init(rawValue: "brazilianrealsign.circle") }
 
     /// 􀮱
@@ -45,6 +63,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    ///
+    /// Categories:
+    /// - Commerce
+    /// - Indices
+    /// - Multicolor
     static var brazilianrealsignCircleFill: SFSymbol { .init(rawValue: "brazilianrealsign.circle.fill") }
 
     /// 􀮲
@@ -53,6 +76,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    ///
+    /// Categories:
+    /// - Commerce
+    /// - Indices
     static var brazilianrealsignSquare: SFSymbol { .init(rawValue: "brazilianrealsign.square") }
 
     /// 􀮳
@@ -62,6 +89,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    ///
+    /// Categories:
+    /// - Commerce
+    /// - Indices
+    /// - Multicolor
     static var brazilianrealsignSquareFill: SFSymbol { .init(rawValue: "brazilianrealsign.square.fill") }
 
     /// 􀒭
@@ -70,6 +102,11 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    ///
+    /// Categories:
+    /// - Commerce
+    /// - Objects & Tools
+    /// - Variable
     static var cartCircle: SFSymbol { .init(rawValue: "cart.circle") }
 
     /// 􀒮
@@ -79,6 +116,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    ///
+    /// Categories:
+    /// - Commerce
+    /// - Multicolor
+    /// - Objects & Tools
     static var cartCircleFill: SFSymbol { .init(rawValue: "cart.circle.fill") }
 
     /// 􀅏
@@ -108,6 +150,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Text Formatting
     static var character: SymbolWith19Localizations<Ar, Bn_v6, Gu_v6, He, Hi, Ja, Kn_v6, Ko, Ml_v6, Mni_v6, Mr_v6, Or_v6, Pa_v6, Sat_v6, Si_v6, Ta_v6, Te_v6, Th, Zh> { .init(rawValue: "character") }
 
     /// 􀫕
@@ -137,6 +182,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var characterBookClosed: SymbolWith19Localizations<Ar, Bn_v7, Gu_v7, He, Hi, Ja, Kn_v7, Ko, Ml_v7, Mni_v7, Mr_v7, Or_v7, Pa_v7, Sat_v7, Si_v7, Ta_v7, Te_v7, Th, Zh> { .init(rawValue: "character.book.closed") }
 
     /// 􀫖
@@ -166,6 +214,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var characterBookClosedFill: SymbolWith19Localizations<Ar, Bn_v7, Gu_v7, He, Hi, Ja, Kn_v7, Ko, Ml_v7, Mni_v7, Mr_v7, Or_v7, Pa_v7, Sat_v7, Si_v7, Ta_v7, Te_v7, Th, Zh> { .init(rawValue: "character.book.closed.fill") }
 
     /// 􀯛
@@ -195,6 +246,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     ///
+    /// Categories:
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Watch.
     static var exclamationmarkApplewatch: SFSymbol { .init(rawValue: "exclamationmark.applewatch") }
 
@@ -204,6 +258,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    ///
+    /// Categories:
+    /// - Media
+    /// - Variable
     static var infinityCircle: SFSymbol { .init(rawValue: "infinity.circle") }
 
     /// 􀵐
@@ -213,6 +271,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    ///
+    /// Categories:
+    /// - Media
+    /// - Multicolor
     static var infinityCircleFill: SFSymbol { .init(rawValue: "infinity.circle.fill") }
 
     /// 􀴓
@@ -222,6 +284,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Devices
+    /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
     static var ipadBadgePlay: SFSymbol { .init(rawValue: "ipad.badge.play") }
@@ -266,6 +332,10 @@ public extension SFSymbol {
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     ///
+    /// Categories:
+    /// - Devices
+    /// - Multicolor
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
     static var ipadLandscapeBadgePlay: SFSymbol { .init(rawValue: "ipad.landscape.badge.play") }
 
@@ -276,6 +346,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Devices
+    /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
     static var iphoneBadgePlay: SFSymbol { .init(rawValue: "iphone.badge.play") }
@@ -318,6 +392,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     ///
+    /// Categories:
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
     static var iphoneLandscape: SFSymbol { .init(rawValue: "iphone.landscape") }
 
@@ -343,6 +420,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     ///
+    /// Categories:
+    /// - Devices
+    /// - Privacy & Security
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Watch.
     static var lockApplewatch: SFSymbol { .init(rawValue: "lock.applewatch") }
 
@@ -351,6 +432,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Devices
     static var photoTv: SFSymbol { .init(rawValue: "photo.tv") }
 
     /// 􀵨
@@ -359,6 +443,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    ///
+    /// Categories:
+    /// - Devices
     static var playTv: SFSymbol { .init(rawValue: "play.tv") }
 
     /// 􀵩
@@ -368,6 +455,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Devices
     static var playTvFill: SFSymbol { .init(rawValue: "play.tv.fill") }
 
     /// 􀵚
@@ -377,6 +467,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Human
+    /// - Multicolor
     static var rectangleBadgePersonCrop: SFSymbol { .init(rawValue: "rectangle.badge.person.crop") }
 
     /// 􀵛
@@ -386,6 +480,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Human
+    /// - Multicolor
     static var rectangleFillBadgePersonCrop: SFSymbol { .init(rawValue: "rectangle.fill.badge.person.crop") }
 
     /// 􀴊
@@ -411,6 +509,11 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    ///
+    /// Categories:
+    /// - Arrows
+    /// - Media
+    /// - Variable
     static var repeat1Circle: SymbolWith2Localizations<Ar_v3, Hi_v3> { .init(rawValue: "repeat.1.circle") }
 
     /// 􀵎
@@ -425,6 +528,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    ///
+    /// Categories:
+    /// - Arrows
+    /// - Media
+    /// - Multicolor
     static var repeat1CircleFill: SymbolWith2Localizations<Ar_v3, Hi_v3> { .init(rawValue: "repeat.1.circle.fill") }
 
     /// 􀵋
@@ -433,6 +541,11 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    ///
+    /// Categories:
+    /// - Arrows
+    /// - Media
+    /// - Variable
     static var repeatCircle: SFSymbol { .init(rawValue: "repeat.circle") }
 
     /// 􀵌
@@ -442,6 +555,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    ///
+    /// Categories:
+    /// - Arrows
+    /// - Media
+    /// - Multicolor
     static var repeatCircleFill: SFSymbol { .init(rawValue: "repeat.circle.fill") }
 
     /// 􀵔
@@ -462,6 +580,11 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    ///
+    /// Categories:
+    /// - Arrows
+    /// - Media
+    /// - Variable
     static var shuffleCircle: SFSymbol { .init(rawValue: "shuffle.circle") }
 
     /// 􀵊
@@ -471,6 +594,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
     /// - Multicolor (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    ///
+    /// Categories:
+    /// - Arrows
+    /// - Media
+    /// - Multicolor
     static var shuffleCircleFill: SFSymbol { .init(rawValue: "shuffle.circle.fill") }
 
     /// 􀵿
@@ -499,6 +627,10 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Accessibility
+    /// - Text Formatting
     static var textformatSizeLarger: SymbolWith18Localizations<Ar, Bn_v6, Gu_v6, He, Hi, Ja, Kn_v6, Ko, Ml_v6, Mni_v6, Mr_v6, Or_v6, Pa_v6, Sat_v6, Ta_v6, Te_v6, Th, Zh> { .init(rawValue: "textformat.size.larger") }
 
     /// 􀵷
@@ -527,6 +659,10 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Accessibility
+    /// - Text Formatting
     static var textformatSizeSmaller: SymbolWith18Localizations<Ar, Bn_v6, Gu_v6, He, Hi, Ja, Kn_v6, Ko, Ml_v6, Mni_v6, Mr_v6, Or_v6, Pa_v6, Sat_v6, Ta_v6, Te_v6, Th, Zh> { .init(rawValue: "textformat.size.smaller") }
 
     /// 􀴌
@@ -542,5 +678,8 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 15.0, macOS 12.0, tvOS 15.0, watchOS 8.0)
+    ///
+    /// Categories:
+    /// - Devices
     static var tvAndMediabox: SFSymbol { .init(rawValue: "tv.and.mediabox") }
 }

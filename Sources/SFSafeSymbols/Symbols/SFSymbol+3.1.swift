@@ -17,6 +17,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
     static var platterFilledBottomAndArrowDownIphone: SFSymbol { .init(rawValue: "platter.filled.bottom.and.arrow.down.iphone") }
 
     /// 􁋀
@@ -25,6 +28,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
     static var platterFilledBottomIphone: SFSymbol { .init(rawValue: "platter.filled.bottom.iphone") }
 
     /// 􁋁
@@ -33,6 +39,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
     static var platterFilledTopAndArrowUpIphone: SFSymbol { .init(rawValue: "platter.filled.top.and.arrow.up.iphone") }
 
     /// 􁊿
@@ -41,6 +50,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
     static var platterFilledTopIphone: SFSymbol { .init(rawValue: "platter.filled.top.iphone") }
 
     /// 􁋜
@@ -50,6 +62,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Camera & Photos
+    /// - Variable
     static var square3Layers3dDownBackward: SFSymbol { .init(rawValue: "square.3.layers.3d.down.backward") }
 
     /// 􁋛
@@ -59,6 +75,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Camera & Photos
+    /// - Variable
     static var square3Layers3dDownForward: SFSymbol { .init(rawValue: "square.3.layers.3d.down.forward") }
 
     /// 􁉼
@@ -68,6 +88,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Camera & Photos
+    /// - Variable
     static var square3Layers3dDownLeft: SFSymbol { .init(rawValue: "square.3.layers.3d.down.left") }
 
     /// 􁉽
@@ -77,6 +101,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Camera & Photos
+    /// - Variable
     static var square3Layers3dDownRight: SFSymbol { .init(rawValue: "square.3.layers.3d.down.right") }
 
     /// 􁉀
@@ -84,6 +112,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Text Formatting
     static var textJustifyLeading: SFSymbol { .init(rawValue: "text.justify.leading") }
 
     /// 􀌄
@@ -91,6 +122,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Text Formatting
     static var textJustifyLeft: SFSymbol { .init(rawValue: "text.justify.left") }
 
     /// 􀌅
@@ -98,6 +132,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Text Formatting
     static var textJustifyRight: SFSymbol { .init(rawValue: "text.justify.right") }
 
     /// 􁉁
@@ -105,5 +142,8 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Text Formatting
     static var textJustifyTrailing: SFSymbol { .init(rawValue: "text.justify.trailing") }
 }

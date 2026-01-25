@@ -46,6 +46,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Transportation
     static var airplaneArrival: SFSymbol { .init(rawValue: "airplane.arrival") }
 
     /// 􀷰
@@ -54,6 +57,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Transportation
     static var airplaneDeparture: SFSymbol { .init(rawValue: "airplane.departure") }
 
     /// 􀱫
@@ -157,6 +163,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     ///
+    /// Categories:
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
     static var airpodsChargingcase: SFSymbol { .init(rawValue: "airpods.chargingcase") }
 
@@ -165,6 +174,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Devices
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
     static var airpodsChargingcaseFill: SFSymbol { .init(rawValue: "airpods.chargingcase.fill") }
@@ -175,6 +187,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     ///
+    /// Categories:
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
     static var airpodsChargingcaseWireless: SFSymbol { .init(rawValue: "airpods.chargingcase.wireless") }
 
@@ -183,6 +198,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Devices
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirPods.
     static var airpodsChargingcaseWirelessFill: SFSymbol { .init(rawValue: "airpods.chargingcase.wireless.fill") }
@@ -221,6 +239,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     ///
+    /// Categories:
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirTag.
     static var airtag: SFSymbol { .init(rawValue: "airtag") }
 
@@ -229,6 +250,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Devices
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirTag.
     static var airtagFill: SFSymbol { .init(rawValue: "airtag.fill") }
@@ -245,6 +269,10 @@ public extension SFSymbol {
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     ///
+    /// Categories:
+    /// - Devices
+    /// - Variable
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirTag.
     static var airtagRadiowavesForward: SymbolWith1Localization<Rtl> { .init(rawValue: "airtag.radiowaves.forward") }
 
@@ -260,6 +288,10 @@ public extension SFSymbol {
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     ///
+    /// Categories:
+    /// - Devices
+    /// - Variable
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s AirTag.
     static var airtagRadiowavesForwardFill: SymbolWith1Localization<Rtl> { .init(rawValue: "airtag.radiowaves.forward.fill") }
 
@@ -270,6 +302,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Editing
     static var alignHorizontalCenter: SFSymbol { .init(rawValue: "align.horizontal.center") }
 
     /// 􀥗
@@ -279,6 +314,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Editing
     static var alignHorizontalCenterFill: SFSymbol { .init(rawValue: "align.horizontal.center.fill") }
 
     /// 􀩈
@@ -287,6 +325,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Editing
     static var alignHorizontalLeft: SFSymbol { .init(rawValue: "align.horizontal.left") }
 
     /// 􀥖
@@ -295,6 +336,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Editing
     static var alignHorizontalLeftFill: SFSymbol { .init(rawValue: "align.horizontal.left.fill") }
 
     /// 􀩊
@@ -303,6 +347,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Editing
     static var alignHorizontalRight: SFSymbol { .init(rawValue: "align.horizontal.right") }
 
     /// 􀥘
@@ -311,6 +358,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Editing
     static var alignHorizontalRightFill: SFSymbol { .init(rawValue: "align.horizontal.right.fill") }
 
     /// 􀩍
@@ -319,6 +369,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Editing
     static var alignVerticalBottom: SFSymbol { .init(rawValue: "align.vertical.bottom") }
 
     /// 􀥛
@@ -327,6 +380,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Editing
     static var alignVerticalBottomFill: SFSymbol { .init(rawValue: "align.vertical.bottom.fill") }
 
     /// 􀩌
@@ -336,6 +392,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Editing
     static var alignVerticalCenter: SFSymbol { .init(rawValue: "align.vertical.center") }
 
     /// 􀥚
@@ -345,6 +404,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Editing
     static var alignVerticalCenterFill: SFSymbol { .init(rawValue: "align.vertical.center.fill") }
 
     /// 􀩋
@@ -353,6 +415,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Editing
     static var alignVerticalTop: SFSymbol { .init(rawValue: "align.vertical.top") }
 
     /// 􀥙
@@ -361,6 +426,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Editing
     static var alignVerticalTopFill: SFSymbol { .init(rawValue: "align.vertical.top.fill") }
 
     /// 􀬭
@@ -370,6 +438,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Multicolor
     /// - Hierarchical (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Health
+    /// - Multicolor
+    /// - Nature
     static var allergens: SFSymbol { .init(rawValue: "allergens") }
 
     /// 􁆭
@@ -386,6 +459,12 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Connectivity
+    /// - Multicolor
+    /// - Objects & Tools
+    /// - Variable
     static var antennaRadiowavesLeftAndRightCircle: SFSymbol { .init(rawValue: "antenna.radiowaves.left.and.right.circle") }
 
     /// 􀷉
@@ -395,6 +474,12 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Connectivity
+    /// - Multicolor
+    /// - Objects & Tools
+    /// - Variable
     static var antennaRadiowavesLeftAndRightCircleFill: SFSymbol { .init(rawValue: "antenna.radiowaves.left.and.right.circle.fill") }
 
     /// 􁅒
@@ -404,6 +489,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
+    ///
+    /// Categories:
+    /// - Connectivity
+    /// - Multicolor
+    /// - Objects & Tools
     static var antennaRadiowavesLeftAndRightSlash: SFSymbol { .init(rawValue: "antenna.radiowaves.left.and.right.slash") }
 
     /// 􁂠
@@ -412,6 +502,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor
+    ///
+    /// Categories:
     /// - Multicolor
     static var appBadgeCheckmark: SFSymbol { .init(rawValue: "app.badge.checkmark") }
 
@@ -422,6 +515,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
     static var appBadgeCheckmarkFill: SFSymbol { .init(rawValue: "app.badge.checkmark.fill") }
 
     /// 􁀘
@@ -431,6 +527,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Maps
     static var appConnectedToAppBelowFill: SFSymbol { .init(rawValue: "app.connected.to.app.below.fill") }
 
     /// 􀿫
@@ -446,6 +545,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     ///
+    /// Categories:
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Pencil.
     static var applepencil: SFSymbol { .init(rawValue: "applepencil") }
 
@@ -454,6 +556,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Devices
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple TV.
     static var appletvremoteGen1: SFSymbol { .init(rawValue: "appletvremote.gen1") }
@@ -464,6 +569,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     ///
+    /// Categories:
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple TV.
     static var appletvremoteGen1Fill: SFSymbol { .init(rawValue: "appletvremote.gen1.fill") }
 
@@ -472,6 +580,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Devices
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple TV.
     static var appletvremoteGen2: SFSymbol { .init(rawValue: "appletvremote.gen2") }
@@ -482,6 +593,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     ///
+    /// Categories:
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple TV.
     static var appletvremoteGen2Fill: SFSymbol { .init(rawValue: "appletvremote.gen2.fill") }
 
@@ -490,6 +604,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Devices
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple TV.
     static var appletvremoteGen3: SFSymbol { .init(rawValue: "appletvremote.gen3") }
@@ -500,6 +617,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     ///
+    /// Categories:
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple TV.
     static var appletvremoteGen3Fill: SFSymbol { .init(rawValue: "appletvremote.gen3.fill") }
 
@@ -509,6 +629,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     ///
+    /// Categories:
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple TV.
     static var appletvremoteGen4: SFSymbol { .init(rawValue: "appletvremote.gen4") }
 
@@ -517,6 +640,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Devices
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple TV.
     static var appletvremoteGen4Fill: SFSymbol { .init(rawValue: "appletvremote.gen4.fill") }
@@ -544,6 +670,9 @@ public extension SFSymbol {
     /// - Hierarchical
     /// - Multicolor
     ///
+    /// Categories:
+    /// - Multicolor
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s ARKit.
     static var arkitBadgeXmark: SFSymbol { .init(rawValue: "arkit.badge.xmark") }
 
@@ -552,6 +681,10 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Arrows
+    /// - Keyboard
     static var arrowBackwardToLine: SFSymbol { .init(rawValue: "arrow.backward.to.line") }
 
     /// 􁂌
@@ -560,6 +693,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Arrows
+    /// - Variable
     static var arrowBackwardToLineCircle: SFSymbol { .init(rawValue: "arrow.backward.to.line.circle") }
 
     /// 􁂍
@@ -569,6 +706,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Arrows
+    /// - Multicolor
     static var arrowBackwardToLineCircleFill: SFSymbol { .init(rawValue: "arrow.backward.to.line.circle.fill") }
 
     /// 􀓈
@@ -577,6 +718,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Arrows
+    /// - Variable
     static var arrowDownToLineCircle: SFSymbol { .init(rawValue: "arrow.down.to.line.circle") }
 
     /// 􀓉
@@ -586,6 +731,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Arrows
+    /// - Multicolor
     static var arrowDownToLineCircleFill: SFSymbol { .init(rawValue: "arrow.down.to.line.circle.fill") }
 
     /// 􀅄
@@ -593,6 +742,10 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Arrows
+    /// - Keyboard
     static var arrowDownToLineCompact: SFSymbol { .init(rawValue: "arrow.down.to.line.compact") }
 
     /// 􁂎
@@ -600,6 +753,10 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Arrows
+    /// - Keyboard
     static var arrowForwardToLine: SFSymbol { .init(rawValue: "arrow.forward.to.line") }
 
     /// 􁂐
@@ -608,6 +765,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Arrows
+    /// - Variable
     static var arrowForwardToLineCircle: SFSymbol { .init(rawValue: "arrow.forward.to.line.circle") }
 
     /// 􁂑
@@ -617,6 +778,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Arrows
+    /// - Multicolor
     static var arrowForwardToLineCircleFill: SFSymbol { .init(rawValue: "arrow.forward.to.line.circle.fill") }
 
     /// 􀓊
@@ -625,6 +790,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Arrows
+    /// - Variable
     static var arrowLeftToLineCircle: SFSymbol { .init(rawValue: "arrow.left.to.line.circle") }
 
     /// 􀓋
@@ -634,6 +803,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Arrows
+    /// - Multicolor
     static var arrowLeftToLineCircleFill: SFSymbol { .init(rawValue: "arrow.left.to.line.circle.fill") }
 
     /// 􀅅
@@ -641,6 +814,10 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Arrows
+    /// - Keyboard
     static var arrowLeftToLineCompact: SFSymbol { .init(rawValue: "arrow.left.to.line.compact") }
 
     /// 􀓌
@@ -649,6 +826,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Arrows
+    /// - Variable
     static var arrowRightToLineCircle: SFSymbol { .init(rawValue: "arrow.right.to.line.circle") }
 
     /// 􀓍
@@ -658,6 +839,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Arrows
+    /// - Multicolor
     static var arrowRightToLineCircleFill: SFSymbol { .init(rawValue: "arrow.right.to.line.circle.fill") }
 
     /// 􀅆
@@ -665,6 +850,10 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Arrows
+    /// - Keyboard
     static var arrowRightToLineCompact: SFSymbol { .init(rawValue: "arrow.right.to.line.compact") }
 
     /// 􀟩
@@ -686,6 +875,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Arrows
+    /// - Variable
     static var arrowUpToLineCircle: SFSymbol { .init(rawValue: "arrow.up.to.line.circle") }
 
     /// 􀓇
@@ -695,6 +888,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Arrows
+    /// - Multicolor
     static var arrowUpToLineCircleFill: SFSymbol { .init(rawValue: "arrow.up.to.line.circle.fill") }
 
     /// 􀅃
@@ -702,6 +899,10 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Arrows
+    /// - Keyboard
     static var arrowUpToLineCompact: SFSymbol { .init(rawValue: "arrow.up.to.line.compact") }
 
     /// 􀟦
@@ -709,6 +910,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Arrows
     static var arrowtriangleLeftAndLineVerticalAndArrowtriangleRightFill: SFSymbol { .init(rawValue: "arrowtriangle.left.and.line.vertical.and.arrowtriangle.right.fill") }
 
     /// 􀟧
@@ -716,6 +920,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Arrows
     static var arrowtriangleRightAndLineVerticalAndArrowtriangleLeftFill: SFSymbol { .init(rawValue: "arrowtriangle.right.and.line.vertical.and.arrowtriangle.left.fill") }
 
     /// 􀸓
@@ -731,6 +938,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Media
+    /// - Variable
     static var backwardCircle: SFSymbol { .init(rawValue: "backward.circle") }
 
     /// 􀺄
@@ -739,6 +950,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor
+    ///
+    /// Categories:
+    /// - Media
     /// - Multicolor
     static var backwardCircleFill: SFSymbol { .init(rawValue: "backward.circle.fill") }
 
@@ -777,6 +992,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     ///
+    /// Categories:
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats earphones.
     static var beatsEarphones: SFSymbol { .init(rawValue: "beats.earphones") }
 
@@ -786,6 +1004,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
+    /// - Objects & Tools
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats headphones.
     static var beatsHeadphones: SFSymbol { .init(rawValue: "beats.headphones") }
@@ -797,6 +1019,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     ///
+    /// Categories:
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats.
     static var beatsPowerbeats: SFSymbol { .init(rawValue: "beats.powerbeats") }
 
@@ -806,6 +1031,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Powerbeats3.
     static var beatsPowerbeats3: SFSymbol { .init(rawValue: "beats.powerbeats3") }
@@ -920,6 +1148,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     ///
+    /// Categories:
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Studio Buds.
     static var beatsStudiobuds: SFSymbol { .init(rawValue: "beats.studiobuds") }
 
@@ -929,6 +1160,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     ///
+    /// Categories:
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Studio Buds case.
     static var beatsStudiobudsChargingcase: SFSymbol { .init(rawValue: "beats.studiobuds.chargingcase") }
 
@@ -937,6 +1171,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Devices
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Studio Buds case.
     static var beatsStudiobudsChargingcaseFill: SFSymbol { .init(rawValue: "beats.studiobuds.chargingcase.fill") }
@@ -948,6 +1185,13 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Health
+    /// - Home
+    /// - Multicolor
+    /// - Objects & Tools
+    /// - Variable
     static var bedDoubleCircle: SFSymbol { .init(rawValue: "bed.double.circle") }
 
     /// 􁁐
@@ -957,6 +1201,12 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Health
+    /// - Home
+    /// - Multicolor
+    /// - Objects & Tools
     static var bedDoubleCircleFill: SFSymbol { .init(rawValue: "bed.double.circle.fill") }
 
     /// 􀻿
@@ -994,6 +1244,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
+    /// - Variable
     static var bellBadgeCircle: SFSymbol { .init(rawValue: "bell.badge.circle") }
 
     /// 􀰸
@@ -1003,6 +1258,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
     static var bellBadgeCircleFill: SFSymbol { .init(rawValue: "bell.badge.circle.fill") }
 
     /// 􀼷
@@ -1012,6 +1271,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
     static var bellSquare: SFSymbol { .init(rawValue: "bell.square") }
 
     /// 􀼸
@@ -1021,6 +1284,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
     static var bellSquareFill: SFSymbol { .init(rawValue: "bell.square.fill") }
 
     /// 􀫮
@@ -1029,6 +1296,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Automotive
+    /// - Objects & Tools
     static var boltBatteryblock: SFSymbol { .init(rawValue: "bolt.batteryblock") }
 
     /// 􀫯
@@ -1038,6 +1309,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Automotive
+    /// - Objects & Tools
     static var boltBatteryblockFill: SFSymbol { .init(rawValue: "bolt.batteryblock.fill") }
 
     /// 􁄲
@@ -1047,6 +1322,13 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Automotive
+    /// - Devices
+    /// - Multicolor
+    /// - Transportation
+    /// - Variable
     static var boltCarCircle: SFSymbol { .init(rawValue: "bolt.car.circle") }
 
     /// 􁄳
@@ -1056,6 +1338,12 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Automotive
+    /// - Devices
+    /// - Multicolor
+    /// - Transportation
     static var boltCarCircleFill: SFSymbol { .init(rawValue: "bolt.car.circle.fill") }
 
     /// 􁃗
@@ -1064,6 +1352,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Nature
+    /// - Objects & Tools
     static var boltShield: SFSymbol { .init(rawValue: "bolt.shield") }
 
     /// 􁃘
@@ -1073,6 +1365,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Nature
+    /// - Objects & Tools
     static var boltShieldFill: SFSymbol { .init(rawValue: "bolt.shield.fill") }
 
     /// 􀼵
@@ -1082,6 +1379,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Camera & Photos
+    /// - Multicolor
+    /// - Nature
     static var boltSquare: SFSymbol { .init(rawValue: "bolt.square") }
 
     /// 􀼶
@@ -1091,6 +1393,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Camera & Photos
+    /// - Multicolor
+    /// - Nature
     static var boltSquareFill: SFSymbol { .init(rawValue: "bolt.square.fill") }
 
     /// 􁇣
@@ -1099,6 +1406,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Objects & Tools
+    /// - Variable
     static var bookClosedCircle: SFSymbol { .init(rawValue: "book.closed.circle") }
 
     /// 􁇤
@@ -1108,6 +1419,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
     static var bookClosedCircleFill: SFSymbol { .init(rawValue: "book.closed.circle.fill") }
 
     /// 􀼹
@@ -1117,6 +1432,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
     static var bookmarkSquare: SFSymbol { .init(rawValue: "bookmark.square") }
 
     /// 􀼺
@@ -1126,6 +1445,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
     static var bookmarkSquareFill: SFSymbol { .init(rawValue: "bookmark.square.fill") }
 
     /// 􁆼
@@ -1134,6 +1457,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Objects & Tools
+    /// - Variable
     static var booksVerticalCircle: SFSymbol { .init(rawValue: "books.vertical.circle") }
 
     /// 􁆽
@@ -1143,6 +1470,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
     static var booksVerticalCircleFill: SFSymbol { .init(rawValue: "books.vertical.circle.fill") }
 
     /// 􀯐
@@ -1150,6 +1481,10 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Health
+    /// - Human
     static var brain: SFSymbol { .init(rawValue: "brain") }
 
     /// 􀯏
@@ -1158,6 +1493,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Health
+    /// - Human
     static var brainHeadProfile: SFSymbol { .init(rawValue: "brain.head.profile") }
 
     /// 􀷡
@@ -1167,6 +1506,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
+    /// - Variable
     static var briefcaseCircle: SFSymbol { .init(rawValue: "briefcase.circle") }
 
     /// 􀷢
@@ -1176,6 +1520,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
     static var briefcaseCircleFill: SFSymbol { .init(rawValue: "briefcase.circle.fill") }
 
     /// 􁃒
@@ -1185,6 +1533,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Communication
+    /// - Privacy & Security
     static var bubbleLeftAndExclamationmarkBubbleRight: SFSymbol { .init(rawValue: "bubble.left.and.exclamationmark.bubble.right") }
 
     /// 􁃓
@@ -1194,6 +1546,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Communication
+    /// - Privacy & Security
     static var bubbleLeftAndExclamationmarkBubbleRightFill: SFSymbol { .init(rawValue: "bubble.left.and.exclamationmark.bubble.right.fill") }
 
     /// 􁇐
@@ -1202,6 +1558,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Communication
+    /// - Variable
     static var bubbleLeftCircle: SFSymbol { .init(rawValue: "bubble.left.circle") }
 
     /// 􁇑
@@ -1211,6 +1571,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Communication
+    /// - Multicolor
     static var bubbleLeftCircleFill: SFSymbol { .init(rawValue: "bubble.left.circle.fill") }
 
     /// 􁇎
@@ -1219,6 +1583,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Communication
+    /// - Variable
     static var bubbleRightCircle: SFSymbol { .init(rawValue: "bubble.right.circle") }
 
     /// 􁇏
@@ -1228,6 +1596,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Communication
+    /// - Multicolor
     static var bubbleRightCircleFill: SFSymbol { .init(rawValue: "bubble.right.circle.fill") }
 
     /// 􁇆
@@ -1236,6 +1608,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Variable
     static var buildingColumnsCircle: SFSymbol { .init(rawValue: "building.columns.circle") }
 
     /// 􁇇
@@ -1245,6 +1620,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Multicolor
     static var buildingColumnsCircleFill: SFSymbol { .init(rawValue: "building.columns.circle.fill") }
 
     /// 􀺦
@@ -1253,6 +1631,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
     static var cableConnector: SFSymbol { .init(rawValue: "cable.connector") }
 
     /// 􀴞
@@ -1261,6 +1642,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Devices
     static var cableConnectorHorizontal: SFSymbol { .init(rawValue: "cable.connector.horizontal") }
 
     /// 􀷶
@@ -1268,6 +1652,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Transportation
     static var cablecar: SFSymbol { .init(rawValue: "cablecar") }
 
     /// 􀷷
@@ -1275,6 +1662,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Transportation
     static var cablecarFill: SFSymbol { .init(rawValue: "cablecar.fill") }
 
     /// 􁁃
@@ -1283,6 +1673,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor
+    ///
+    /// Categories:
     /// - Multicolor
     static var calendarDayTimelineLeading: SFSymbol { .init(rawValue: "calendar.day.timeline.leading") }
 
@@ -1293,6 +1686,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
     static var calendarDayTimelineLeft: SFSymbol { .init(rawValue: "calendar.day.timeline.left") }
 
     /// 􀻣
@@ -1301,6 +1697,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor
+    ///
+    /// Categories:
     /// - Multicolor
     static var calendarDayTimelineRight: SFSymbol { .init(rawValue: "calendar.day.timeline.right") }
 
@@ -1311,6 +1710,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
     static var calendarDayTimelineTrailing: SFSymbol { .init(rawValue: "calendar.day.timeline.trailing") }
 
     /// 􀹺
@@ -1319,6 +1721,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Camera & Photos
+    /// - Objects & Tools
     static var cameraShutterButton: SFSymbol { .init(rawValue: "camera.shutter.button") }
 
     /// 􀹻
@@ -1327,6 +1733,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Camera & Photos
+    /// - Objects & Tools
     static var cameraShutterButtonFill: SFSymbol { .init(rawValue: "camera.shutter.button.fill") }
 
     /// 􀿶
@@ -1416,6 +1826,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Transportation
     static var carFerry: SFSymbol { .init(rawValue: "car.ferry") }
 
     /// 􀸍
@@ -1423,6 +1836,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Transportation
     static var carFerryFill: SFSymbol { .init(rawValue: "car.ferry.fill") }
 
     /// 􀑁
@@ -1440,6 +1856,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Variable
     static var chartLineUptrendXyaxisCircle: SFSymbol { .init(rawValue: "chart.line.uptrend.xyaxis.circle") }
 
     /// 􀴛
@@ -1449,6 +1868,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Multicolor
     static var chartLineUptrendXyaxisCircleFill: SFSymbol { .init(rawValue: "chart.line.uptrend.xyaxis.circle.fill") }
 
     /// 􁂥
@@ -1458,6 +1880,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var chartXyaxisLine: SFSymbol { .init(rawValue: "chart.xyaxis.line") }
 
     /// 􀵔
@@ -1482,6 +1907,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Text Formatting
     static var checklist: SymbolWith1Localization<Rtl> { .init(rawValue: "checklist") }
 
     /// 􀿋
@@ -1494,6 +1922,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Communication
     static var checkmarkBubble: SymbolWith1Localization<Rtl_v5> { .init(rawValue: "checkmark.bubble") }
 
     /// 􀿌
@@ -1507,6 +1938,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Communication
     static var checkmarkBubbleFill: SymbolWith1Localization<Rtl_v5> { .init(rawValue: "checkmark.bubble.fill") }
 
     /// 􁃎
@@ -1516,6 +1950,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Privacy & Security
+    /// - Variable
     static var checkmarkCircleTrianglebadgeExclamationmark: SFSymbol { .init(rawValue: "checkmark.circle.trianglebadge.exclamationmark") }
 
     /// 􁁚
@@ -1525,6 +1964,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Privacy & Security
     static var checkmarkDiamond: SFSymbol { .init(rawValue: "checkmark.diamond") }
 
     /// 􁁛
@@ -1534,6 +1977,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Privacy & Security
     static var checkmarkDiamondFill: SFSymbol { .init(rawValue: "checkmark.diamond.fill") }
 
     /// 􀙚
@@ -1549,6 +1996,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    ///
+    /// Categories:
+    /// - Camera & Photos
+    /// - Editing
     static var circleAndLineHorizontal: SFSymbol { .init(rawValue: "circle.and.line.horizontal") }
 
     /// 􀞍
@@ -1556,6 +2007,10 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Camera & Photos
+    /// - Editing
     static var circleAndLineHorizontalFill: SFSymbol { .init(rawValue: "circle.and.line.horizontal.fill") }
 
     /// 􀪖
@@ -1621,6 +2076,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Variable
     static var circleGrid3x3Circle: SFSymbol { .init(rawValue: "circle.grid.3x3.circle") }
 
     /// 􀺳
@@ -1630,6 +2088,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
     static var circleGrid3x3CircleFill: SFSymbol { .init(rawValue: "circle.grid.3x3.circle.fill") }
 
     /// 􀩇
@@ -1638,6 +2099,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Gaming
     static var circleGridCrossDownFilled: SFSymbol { .init(rawValue: "circle.grid.cross.down.filled") }
 
     /// 􀩄
@@ -1646,6 +2110,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Gaming
     static var circleGridCrossLeftFilled: SFSymbol { .init(rawValue: "circle.grid.cross.left.filled") }
 
     /// 􀩆
@@ -1654,6 +2121,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Gaming
     static var circleGridCrossRightFilled: SFSymbol { .init(rawValue: "circle.grid.cross.right.filled") }
 
     /// 􀩅
@@ -1662,6 +2132,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Gaming
     static var circleGridCrossUpFilled: SFSymbol { .init(rawValue: "circle.grid.cross.up.filled") }
 
     /// 􀙢
@@ -1677,6 +2150,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Variable
     static var circleHexagongridCircle: SFSymbol { .init(rawValue: "circle.hexagongrid.circle") }
 
     /// 􀷚
@@ -1686,6 +2162,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
     static var circleHexagongridCircleFill: SFSymbol { .init(rawValue: "circle.hexagongrid.circle.fill") }
 
     /// 􀙣
@@ -1694,6 +2173,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
     static var circleHexagongridFill: SFSymbol { .init(rawValue: "circle.hexagongrid.fill") }
 
     /// 􀬎
@@ -1701,6 +2183,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Accessibility
     static var circleHexagonpath: SFSymbol { .init(rawValue: "circle.hexagonpath") }
 
     /// 􀬏
@@ -1708,6 +2193,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Accessibility
     static var circleHexagonpathFill: SFSymbol { .init(rawValue: "circle.hexagonpath.fill") }
 
     /// 􀝜
@@ -1728,6 +2216,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Editing
     static var circleLefthalfFilled: SFSymbol { .init(rawValue: "circle.lefthalf.filled") }
 
     /// 􀀃
@@ -1735,6 +2226,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Editing
     static var circleRighthalfFilled: SFSymbol { .init(rawValue: "circle.righthalf.filled") }
 
     /// 􀻃
@@ -1760,6 +2254,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Gaming
+    /// - Multicolor
     static var circleSquareFill: SFSymbol { .init(rawValue: "circle.square.fill") }
 
     /// 􀪗
@@ -1776,6 +2274,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
+    /// - Time
     static var clockBadgeCheckmark: SFSymbol { .init(rawValue: "clock.badge.checkmark") }
 
     /// 􀹵
@@ -1785,6 +2288,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
+    /// - Time
     static var clockBadgeCheckmarkFill: SFSymbol { .init(rawValue: "clock.badge.checkmark.fill") }
 
     /// 􀹶
@@ -1794,6 +2302,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
+    /// - Time
     static var clockBadgeExclamationmark: SFSymbol { .init(rawValue: "clock.badge.exclamationmark") }
 
     /// 􀹷
@@ -1803,6 +2316,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
+    /// - Time
     static var clockBadgeExclamationmarkFill: SFSymbol { .init(rawValue: "clock.badge.exclamationmark.fill") }
 
     /// 􁆸
@@ -1811,6 +2329,11 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Objects & Tools
+    /// - Time
+    /// - Variable
     static var clockCircle: SFSymbol { .init(rawValue: "clock.circle") }
 
     /// 􁆹
@@ -1820,6 +2343,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
+    /// - Time
     static var clockCircleFill: SFSymbol { .init(rawValue: "clock.circle.fill") }
 
     /// 􀺣
@@ -1827,6 +2355,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Devices
     static var computermouse: SFSymbol { .init(rawValue: "computermouse") }
 
     /// 􀺤
@@ -1834,6 +2365,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Devices
     static var computermouseFill: SFSymbol { .init(rawValue: "computermouse.fill") }
 
     /// 􀧓
@@ -1841,6 +2375,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var cpuFill: SFSymbol { .init(rawValue: "cpu.fill") }
 
     /// 􁂨
@@ -1863,6 +2400,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Commerce
+    /// - Multicolor
     static var creditcardTrianglebadgeExclamationmark: SFSymbol { .init(rawValue: "creditcard.trianglebadge.exclamationmark") }
 
     /// 􀼘
@@ -1872,6 +2413,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Health
+    /// - Multicolor
+    /// - Objects & Tools
     static var crossVial: SFSymbol { .init(rawValue: "cross.vial") }
 
     /// 􀼙
@@ -1881,6 +2427,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Health
+    /// - Multicolor
+    /// - Objects & Tools
     static var crossVialFill: SFSymbol { .init(rawValue: "cross.vial.fill") }
 
     /// 􀸘
@@ -1888,6 +2439,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var cupAndSaucer: SFSymbol { .init(rawValue: "cup.and.saucer") }
 
     /// 􀸙
@@ -1895,6 +2449,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var cupAndSaucerFill: SFSymbol { .init(rawValue: "cup.and.saucer.fill") }
 
     /// 􁂈
@@ -1903,6 +2460,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor
+    ///
+    /// Categories:
+    /// - Keyboard
     /// - Multicolor
     static var deleteBackward: SFSymbol { .init(rawValue: "delete.backward") }
 
@@ -1913,6 +2474,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Keyboard
+    /// - Multicolor
     static var deleteBackwardFill: SFSymbol { .init(rawValue: "delete.backward.fill") }
 
     /// 􁂒
@@ -1921,6 +2486,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor
+    ///
+    /// Categories:
+    /// - Keyboard
     /// - Multicolor
     static var deleteForward: SFSymbol { .init(rawValue: "delete.forward") }
 
@@ -1931,6 +2500,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Keyboard
+    /// - Multicolor
     static var deleteForwardFill: SFSymbol { .init(rawValue: "delete.forward.fill") }
 
     /// 􀶾
@@ -1939,6 +2512,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
     static var desktopcomputerAndArrowDown: SFSymbol { .init(rawValue: "desktopcomputer.and.arrow.down") }
 
     /// 􁃃
@@ -1947,6 +2523,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor
+    ///
+    /// Categories:
+    /// - Devices
     /// - Multicolor
     static var desktopcomputerTrianglebadgeExclamationmark: SFSymbol { .init(rawValue: "desktopcomputer.trianglebadge.exclamationmark") }
 
@@ -1963,6 +2543,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Variable
     static var diamondCircle: SFSymbol { .init(rawValue: "diamond.circle") }
 
     /// 􁇢
@@ -1972,6 +2555,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Multicolor
     static var diamondCircleFill: SFSymbol { .init(rawValue: "diamond.circle.fill") }
 
     /// 􀾗
@@ -2015,6 +2601,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var dice: SFSymbol { .init(rawValue: "dice") }
 
     /// 􀺵
@@ -2024,6 +2613,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var diceFill: SFSymbol { .init(rawValue: "dice.fill") }
 
     /// 􀻖
@@ -2032,6 +2624,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Accessibility
+    /// - Devices
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Digital Crown.
     static var digitalcrownArrowClockwise: SFSymbol { .init(rawValue: "digitalcrown.arrow.clockwise") }
@@ -2043,6 +2639,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     ///
+    /// Categories:
+    /// - Accessibility
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Digital Crown.
     static var digitalcrownArrowClockwiseFill: SFSymbol { .init(rawValue: "digitalcrown.arrow.clockwise.fill") }
 
@@ -2052,6 +2652,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Accessibility
+    /// - Devices
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Digital Crown.
     static var digitalcrownArrowCounterclockwise: SFSymbol { .init(rawValue: "digitalcrown.arrow.counterclockwise") }
@@ -2063,6 +2667,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     ///
+    /// Categories:
+    /// - Accessibility
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Digital Crown.
     static var digitalcrownArrowCounterclockwiseFill: SFSymbol { .init(rawValue: "digitalcrown.arrow.counterclockwise.fill") }
 
@@ -2072,6 +2680,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Digital Crown.
     static var digitalcrownHorizontalArrowClockwise: SFSymbol { .init(rawValue: "digitalcrown.horizontal.arrow.clockwise") }
@@ -2083,6 +2694,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     ///
+    /// Categories:
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Digital Crown.
     static var digitalcrownHorizontalArrowClockwiseFill: SFSymbol { .init(rawValue: "digitalcrown.horizontal.arrow.clockwise.fill") }
 
@@ -2092,6 +2706,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Digital Crown.
     static var digitalcrownHorizontalArrowCounterclockwise: SFSymbol { .init(rawValue: "digitalcrown.horizontal.arrow.counterclockwise") }
@@ -2103,6 +2720,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     ///
+    /// Categories:
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Digital Crown.
     static var digitalcrownHorizontalArrowCounterclockwiseFill: SFSymbol { .init(rawValue: "digitalcrown.horizontal.arrow.counterclockwise.fill") }
 
@@ -2112,6 +2732,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Digital Crown.
     static var digitalcrownHorizontalPress: SFSymbol { .init(rawValue: "digitalcrown.horizontal.press") }
@@ -2123,6 +2746,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     ///
+    /// Categories:
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Digital Crown.
     static var digitalcrownHorizontalPressFill: SFSymbol { .init(rawValue: "digitalcrown.horizontal.press.fill") }
 
@@ -2132,6 +2758,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Accessibility
+    /// - Devices
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Digital Crown.
     static var digitalcrownPress: SFSymbol { .init(rawValue: "digitalcrown.press") }
@@ -2143,6 +2773,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     ///
+    /// Categories:
+    /// - Accessibility
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Digital Crown.
     static var digitalcrownPressFill: SFSymbol { .init(rawValue: "digitalcrown.press.fill") }
 
@@ -2152,6 +2786,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
     static var displayAndArrowDown: SFSymbol { .init(rawValue: "display.and.arrow.down") }
 
     /// 􀩽
@@ -2211,6 +2848,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Accessibility
     static var dotCircleAndHandPointUpLeftFill: SFSymbol { .init(rawValue: "dot.circle.and.hand.point.up.left.fill") }
 
     /// 􁇞
@@ -2228,6 +2868,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Connectivity
+    /// - Variable
     static var dotRadiowavesUpForward: SFSymbol { .init(rawValue: "dot.radiowaves.up.forward") }
 
     /// 􁇝
@@ -2244,6 +2888,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Gaming
     static var dpadDownFilled: SFSymbol { .init(rawValue: "dpad.down.filled") }
 
     /// 􀧽
@@ -2252,6 +2899,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Gaming
     static var dpadLeftFilled: SFSymbol { .init(rawValue: "dpad.left.filled") }
 
     /// 􀧿
@@ -2260,6 +2910,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Gaming
     static var dpadRightFilled: SFSymbol { .init(rawValue: "dpad.right.filled") }
 
     /// 􀧾
@@ -2268,6 +2921,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Gaming
     static var dpadUpFilled: SFSymbol { .init(rawValue: "dpad.up.filled") }
 
     /// 􁇊
@@ -2276,6 +2932,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Nature
+    /// - Variable
     static var dropCircle: SFSymbol { .init(rawValue: "drop.circle") }
 
     /// 􁇋
@@ -2285,6 +2945,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Nature
     static var dropCircleFill: SFSymbol { .init(rawValue: "drop.circle.fill") }
 
     /// 􀵣
@@ -2307,6 +2971,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
+    /// - Objects & Tools
     static var earbuds: SFSymbol { .init(rawValue: "earbuds") }
 
     /// 􀹥
@@ -2314,6 +2982,10 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Devices
+    /// - Objects & Tools
     static var earbudsCase: SFSymbol { .init(rawValue: "earbuds.case") }
 
     /// 􀹦
@@ -2321,6 +2993,10 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Devices
+    /// - Objects & Tools
     static var earbudsCaseFill: SFSymbol { .init(rawValue: "earbuds.case.fill") }
 
     /// 􁇵
@@ -2330,6 +3006,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Variable
     static var ellipsisCurlybraces: SFSymbol { .init(rawValue: "ellipsis.curlybraces") }
 
     /// 􁁟
@@ -2339,6 +3018,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Communication
+    /// - Variable
     static var ellipsisVerticalBubble: SFSymbol { .init(rawValue: "ellipsis.vertical.bubble") }
 
     /// 􁁠
@@ -2348,6 +3031,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Communication
+    /// - Multicolor
+    /// - Variable
     static var ellipsisVerticalBubbleFill: SFSymbol { .init(rawValue: "ellipsis.vertical.bubble.fill") }
 
     /// 􀫙
@@ -2356,6 +3044,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Communication
+    /// - Privacy & Security
     static var envelopeBadgeShieldHalfFilled: SFSymbol { .init(rawValue: "envelope.badge.shield.half.filled") }
 
     /// 􀫚
@@ -2364,6 +3056,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Communication
+    /// - Privacy & Security
     static var envelopeBadgeShieldHalfFilledFill: SFSymbol { .init(rawValue: "envelope.badge.shield.half.filled.fill") }
 
     /// 􁆶
@@ -2372,6 +3068,12 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Communication
+    /// - Maps
+    /// - Privacy & Security
+    /// - Variable
     static var exclamationmarkBubbleCircle: SFSymbol { .init(rawValue: "exclamationmark.bubble.circle") }
 
     /// 􁆷
@@ -2381,6 +3083,12 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Communication
+    /// - Maps
+    /// - Multicolor
+    /// - Privacy & Security
     static var exclamationmarkBubbleCircleFill: SFSymbol { .init(rawValue: "exclamationmark.bubble.circle.fill") }
 
     /// 􀜁
@@ -2389,6 +3097,12 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Accessibility
+    /// - Human
+    /// - Privacy & Security
+    /// - Variable
     static var eyeSlashCircle: SFSymbol { .init(rawValue: "eye.slash.circle") }
 
     /// 􀜂
@@ -2398,6 +3112,12 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Accessibility
+    /// - Human
+    /// - Multicolor
+    /// - Privacy & Security
     static var eyeSlashCircleFill: SFSymbol { .init(rawValue: "eye.slash.circle.fill") }
 
     /// 􀽇
@@ -2406,6 +3126,12 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Accessibility
+    /// - Health
+    /// - Human
+    /// - Privacy & Security
     static var eyeSquare: SFSymbol { .init(rawValue: "eye.square") }
 
     /// 􀽈
@@ -2415,6 +3141,13 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Accessibility
+    /// - Health
+    /// - Human
+    /// - Multicolor
+    /// - Privacy & Security
     static var eyeSquareFill: SFSymbol { .init(rawValue: "eye.square.fill") }
 
     /// 􁂔
@@ -2424,6 +3157,13 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Accessibility
+    /// - Health
+    /// - Human
+    /// - Multicolor
+    /// - Privacy & Security
     static var eyeTrianglebadgeExclamationmark: SFSymbol { .init(rawValue: "eye.trianglebadge.exclamationmark") }
 
     /// 􁂕
@@ -2433,6 +3173,13 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Accessibility
+    /// - Health
+    /// - Human
+    /// - Multicolor
+    /// - Privacy & Security
     static var eyeTrianglebadgeExclamationmarkFill: SFSymbol { .init(rawValue: "eye.trianglebadge.exclamationmark.fill") }
 
     /// 􁃌
@@ -2442,6 +3189,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Health
+    /// - Objects & Tools
     static var facemask: SFSymbol { .init(rawValue: "facemask") }
 
     /// 􁃍
@@ -2451,6 +3202,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Health
+    /// - Multicolor
+    /// - Objects & Tools
     static var facemaskFill: SFSymbol { .init(rawValue: "facemask.fill") }
 
     /// 􁁋
@@ -2482,6 +3238,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Transportation
     static var ferry: SFSymbol { .init(rawValue: "ferry") }
 
     /// 􀸆
@@ -2489,6 +3248,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Transportation
     static var ferryFill: SFSymbol { .init(rawValue: "ferry.fill") }
 
     /// 􀥢
@@ -2503,6 +3265,11 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Accessibility
+    /// - Fitness
+    /// - Human
     static var figureRoll: SFSymbol { .init(rawValue: "figure.roll") }
 
     /// 􀸊
@@ -2511,6 +3278,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Objects & Tools
+    /// - Variable
     static var filmCircle: SFSymbol { .init(rawValue: "film.circle") }
 
     /// 􀸋
@@ -2520,6 +3291,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
     static var filmCircleFill: SFSymbol { .init(rawValue: "film.circle.fill") }
 
     /// 􀶶
@@ -2528,6 +3303,11 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Fitness
+    /// - Gaming
+    /// - Objects & Tools
     static var flag2Crossed: SFSymbol { .init(rawValue: "flag.2.crossed") }
 
     /// 􀶷
@@ -2536,6 +3316,11 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Fitness
+    /// - Gaming
+    /// - Objects & Tools
     static var flag2CrossedFill: SFSymbol { .init(rawValue: "flag.2.crossed.fill") }
 
     /// 􁁜
@@ -2544,6 +3329,11 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Fitness
+    /// - Gaming
+    /// - Objects & Tools
     static var flagAndFlagFilledCrossed: SFSymbol { .init(rawValue: "flag.and.flag.filled.crossed") }
 
     /// 􀶸
@@ -2552,6 +3342,11 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Fitness
+    /// - Gaming
+    /// - Objects & Tools
     static var flagFilledAndFlagCrossed: SFSymbol { .init(rawValue: "flag.filled.and.flag.crossed") }
 
     /// 􀼳
@@ -2561,6 +3356,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
     static var flagSquare: SFSymbol { .init(rawValue: "flag.square") }
 
     /// 􀼴
@@ -2570,6 +3369,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
     static var flagSquareFill: SFSymbol { .init(rawValue: "flag.square.fill") }
 
     /// 􁇒
@@ -2578,6 +3381,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Nature
+    /// - Variable
     static var flameCircle: SFSymbol { .init(rawValue: "flame.circle") }
 
     /// 􁇓
@@ -2587,6 +3394,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Nature
     static var flameCircleFill: SFSymbol { .init(rawValue: "flame.circle.fill") }
 
     /// 􀣍
@@ -2595,6 +3406,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var folderBadgeGearshape: SFSymbol { .init(rawValue: "folder.badge.gearshape") }
 
     /// 􀣎
@@ -2603,6 +3417,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var folderFillBadgeGearshape: SFSymbol { .init(rawValue: "folder.fill.badge.gearshape") }
 
     /// 􀸩
@@ -2611,6 +3428,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
     static var forkKnife: SFSymbol { .init(rawValue: "fork.knife") }
 
     /// 􀸹
@@ -2620,6 +3441,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
+    /// - Variable
     static var forkKnifeCircle: SFSymbol { .init(rawValue: "fork.knife.circle") }
 
     /// 􀸺
@@ -2629,6 +3455,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
     static var forkKnifeCircleFill: SFSymbol { .init(rawValue: "fork.knife.circle.fill") }
 
     /// 􀺅
@@ -2637,6 +3467,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Media
+    /// - Variable
     static var forwardCircle: SFSymbol { .init(rawValue: "forward.circle") }
 
     /// 􀺆
@@ -2646,6 +3480,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Media
+    /// - Multicolor
     static var forwardCircleFill: SFSymbol { .init(rawValue: "forward.circle.fill") }
 
     /// 􀵞
@@ -2653,6 +3491,12 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Automotive
+    /// - Maps
+    /// - Objects & Tools
+    /// - Transportation
     static var fuelpump: SFSymbol { .init(rawValue: "fuelpump") }
 
     /// 􀵠
@@ -2661,6 +3505,13 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Automotive
+    /// - Maps
+    /// - Objects & Tools
+    /// - Transportation
+    /// - Variable
     static var fuelpumpCircle: SFSymbol { .init(rawValue: "fuelpump.circle") }
 
     /// 􀵡
@@ -2670,6 +3521,13 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Automotive
+    /// - Maps
+    /// - Multicolor
+    /// - Objects & Tools
+    /// - Transportation
     static var fuelpumpCircleFill: SFSymbol { .init(rawValue: "fuelpump.circle.fill") }
 
     /// 􀵟
@@ -2677,6 +3535,12 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Automotive
+    /// - Maps
+    /// - Objects & Tools
+    /// - Transportation
     static var fuelpumpFill: SFSymbol { .init(rawValue: "fuelpump.fill") }
 
     /// 􁅦
@@ -2686,6 +3550,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 15.2, macOS 12.1, tvOS 15.2, watchOS 8.3)
+    ///
+    /// Categories:
+    /// - Multicolor
     static var gearBadgeCheckmark: SFSymbol { .init(rawValue: "gear.badge.checkmark") }
 
     /// 􁅨
@@ -2694,6 +3561,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor
+    ///
+    /// Categories:
     /// - Multicolor
     static var gearBadgeQuestionmark: SFSymbol { .init(rawValue: "gear.badge.questionmark") }
 
@@ -2704,6 +3574,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
     static var gearBadgeXmark: SFSymbol { .init(rawValue: "gear.badge.xmark") }
 
     /// 􀺺
@@ -2713,6 +3586,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Variable
     static var gearCircle: SFSymbol { .init(rawValue: "gear.circle") }
 
     /// 􀺻
@@ -2722,6 +3599,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
     static var gearCircleFill: SFSymbol { .init(rawValue: "gear.circle.fill") }
 
     /// 􀺼
@@ -2730,6 +3610,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Variable
     static var gearshapeCircle: SFSymbol { .init(rawValue: "gearshape.circle") }
 
     /// 􀺽
@@ -2739,6 +3622,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
     static var gearshapeCircleFill: SFSymbol { .init(rawValue: "gearshape.circle.fill") }
 
     /// 􀵱
@@ -2746,6 +3632,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Nature
     static var globeAmericas: SFSymbol { .init(rawValue: "globe.americas") }
 
     /// 􀵲
@@ -2753,6 +3642,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Nature
     static var globeAmericasFill: SFSymbol { .init(rawValue: "globe.americas.fill") }
 
     /// 􀵵
@@ -2760,6 +3652,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Nature
     static var globeAsiaAustralia: SFSymbol { .init(rawValue: "globe.asia.australia") }
 
     /// 􀵶
@@ -2767,6 +3662,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Nature
     static var globeAsiaAustraliaFill: SFSymbol { .init(rawValue: "globe.asia.australia.fill") }
 
     /// 􁅍
@@ -2776,6 +3674,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Keyboard
+    /// - Multicolor
     static var globeBadgeChevronBackward: SFSymbol { .init(rawValue: "globe.badge.chevron.backward") }
 
     /// 􀵳
@@ -2783,6 +3685,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Nature
     static var globeEuropeAfrica: SFSymbol { .init(rawValue: "globe.europe.africa") }
 
     /// 􀵴
@@ -2790,6 +3695,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Nature
     static var globeEuropeAfricaFill: SFSymbol { .init(rawValue: "globe.europe.africa.fill") }
 
     /// 􀶱
@@ -2834,6 +3742,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Objects & Tools
+    /// - Variable
     static var graduationcapCircle: SFSymbol { .init(rawValue: "graduationcap.circle") }
 
     /// 􁆿
@@ -2843,6 +3755,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
     static var graduationcapCircleFill: SFSymbol { .init(rawValue: "graduationcap.circle.fill") }
 
     /// 􀭝
@@ -2860,6 +3776,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Objects & Tools
+    /// - Variable
     static var hammerCircle: SFSymbol { .init(rawValue: "hammer.circle") }
 
     /// 􀷕
@@ -2869,6 +3789,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
     static var hammerCircleFill: SFSymbol { .init(rawValue: "hammer.circle.fill") }
 
     /// 􀷊
@@ -2878,6 +3802,12 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Human
+    /// - Multicolor
+    /// - Privacy & Security
+    /// - Variable
     static var handRaisedCircle: SFSymbol { .init(rawValue: "hand.raised.circle") }
 
     /// 􀷋
@@ -2887,6 +3817,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Human
+    /// - Multicolor
+    /// - Privacy & Security
     static var handRaisedCircleFill: SFSymbol { .init(rawValue: "hand.raised.circle.fill") }
 
     /// 􀽓
@@ -2896,6 +3831,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Human
+    /// - Multicolor
+    /// - Privacy & Security
     static var handRaisedSquare: SFSymbol { .init(rawValue: "hand.raised.square") }
 
     /// 􀽔
@@ -2905,6 +3845,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Human
+    /// - Multicolor
+    /// - Privacy & Security
     static var handRaisedSquareFill: SFSymbol { .init(rawValue: "hand.raised.square.fill") }
 
     /// 􀴨
@@ -2914,6 +3859,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Privacy & Security
     static var handRaisedSquareOnSquare: SFSymbol { .init(rawValue: "hand.raised.square.on.square") }
 
     /// 􀴩
@@ -2923,6 +3871,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Privacy & Security
     static var handRaisedSquareOnSquareFill: SFSymbol { .init(rawValue: "hand.raised.square.on.square.fill") }
 
     /// 􀷟
@@ -2931,6 +3882,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Human
+    /// - Variable
     static var handThumbsdownCircle: SFSymbol { .init(rawValue: "hand.thumbsdown.circle") }
 
     /// 􀷠
@@ -2940,6 +3895,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Human
+    /// - Multicolor
     static var handThumbsdownCircleFill: SFSymbol { .init(rawValue: "hand.thumbsdown.circle.fill") }
 
     /// 􀷝
@@ -2948,6 +3907,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Human
+    /// - Variable
     static var handThumbsupCircle: SFSymbol { .init(rawValue: "hand.thumbsup.circle") }
 
     /// 􀷞
@@ -2957,6 +3920,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Human
+    /// - Multicolor
     static var handThumbsupCircleFill: SFSymbol { .init(rawValue: "hand.thumbsup.circle.fill") }
 
     /// 􀪓
@@ -2965,6 +3932,12 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Accessibility
+    /// - Devices
+    /// - Health
+    /// - Human
     static var hearingdeviceEar: SFSymbol { .init(rawValue: "hearingdevice.ear") }
 
     /// 􁃪
@@ -2973,6 +3946,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor
+    ///
+    /// Categories:
     /// - Multicolor
     static var heartRectangle: SFSymbol { .init(rawValue: "heart.rectangle") }
 
@@ -2983,6 +3959,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
     static var heartRectangleFill: SFSymbol { .init(rawValue: "heart.rectangle.fill") }
 
     /// 􀼱
@@ -2992,6 +3971,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
     static var heartSquare: SFSymbol { .init(rawValue: "heart.square") }
 
     /// 􀼲
@@ -3000,6 +3982,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor
+    ///
+    /// Categories:
     /// - Multicolor
     static var heartSquareFill: SFSymbol { .init(rawValue: "heart.square.fill") }
 
@@ -3041,6 +4026,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     ///
+    /// Categories:
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple TV.
     static var hifispeakerAndAppletv: SymbolWith1Localization<Rtl_v4> { .init(rawValue: "hifispeaker.and.appletv") }
 
@@ -3054,6 +4042,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
+    ///
+    /// Categories:
+    /// - Devices
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple TV.
     static var hifispeakerAndAppletvFill: SymbolWith1Localization<Rtl_v4> { .init(rawValue: "hifispeaker.and.appletv.fill") }
@@ -3069,6 +4060,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     ///
+    /// Categories:
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s HomePod and Apple TV.
     static var homepodAndAppletv: SymbolWith1Localization<Rtl_v4> { .init(rawValue: "homepod.and.appletv") }
 
@@ -3082,6 +4076,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s HomePod and Apple TV.
     static var homepodAndAppletvFill: SymbolWith1Localization<Rtl_v4> { .init(rawValue: "homepod.and.appletv.fill") }
@@ -3131,6 +4128,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
+    /// - Time
     static var hourglassBottomhalfFilled: SFSymbol { .init(rawValue: "hourglass.bottomhalf.filled") }
 
     /// 􁇛
@@ -3140,6 +4142,12 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
+    /// - Time
+    /// - Variable
     static var hourglassCircle: SFSymbol { .init(rawValue: "hourglass.circle") }
 
     /// 􁇜
@@ -3149,6 +4157,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
+    /// - Time
     static var hourglassCircleFill: SFSymbol { .init(rawValue: "hourglass.circle.fill") }
 
     /// 􀖉
@@ -3158,6 +4171,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
+    /// - Time
     static var hourglassTophalfFilled: SFSymbol { .init(rawValue: "hourglass.tophalf.filled") }
 
     /// 􁃚
@@ -3167,6 +4185,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Nature
+    /// - Variable
+    /// - Weather
     static var humidity: SFSymbol { .init(rawValue: "humidity") }
 
     /// 􁃛
@@ -3175,6 +4198,11 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Nature
+    /// - Variable
+    /// - Weather
     static var humidityFill: SFSymbol { .init(rawValue: "humidity.fill") }
 
     /// 􀽑
@@ -3183,6 +4211,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor
+    ///
+    /// Categories:
+    /// - Connectivity
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iCloud service.
@@ -3196,6 +4228,10 @@ public extension SFSymbol {
     /// - Hierarchical
     /// - Multicolor
     ///
+    /// Categories:
+    /// - Connectivity
+    /// - Multicolor
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iCloud service.
     static var icloudSquareFill: SFSymbol { .init(rawValue: "icloud.square.fill") }
 
@@ -3205,6 +4241,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
     static var ipadAndArrowForward: SFSymbol { .init(rawValue: "ipad.and.arrow.forward") }
 
     /// 􁄟
@@ -3229,6 +4268,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Camera & Photos
+    /// - Devices
     static var ipadRearCamera: SFSymbol { .init(rawValue: "ipad.rear.camera") }
 
     /// 􀶼
@@ -3251,6 +4294,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     ///
+    /// Categories:
+    /// - Devices
+    /// - Variable
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
     static var iphoneCircle: SFSymbol { .init(rawValue: "iphone.circle") }
 
@@ -3261,6 +4308,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Devices
+    /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
     static var iphoneCircleFill: SFSymbol { .init(rawValue: "iphone.circle.fill") }
@@ -3367,6 +4418,10 @@ public extension SFSymbol {
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     ///
+    /// Categories:
+    /// - Devices
+    /// - Variable
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
     static var iphoneRadiowavesLeftAndRightCircle: SFSymbol { .init(rawValue: "iphone.radiowaves.left.and.right.circle") }
 
@@ -3378,6 +4433,11 @@ public extension SFSymbol {
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     ///
+    /// Categories:
+    /// - Devices
+    /// - Multicolor
+    /// - Variable
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
     static var iphoneRadiowavesLeftAndRightCircleFill: SFSymbol { .init(rawValue: "iphone.radiowaves.left.and.right.circle.fill") }
 
@@ -3387,6 +4447,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Camera & Photos
+    /// - Devices
     static var iphoneRearCamera: SFSymbol { .init(rawValue: "iphone.rear.camera") }
 
     /// 􁄫
@@ -3395,6 +4459,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
+    /// - Variable
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
     static var iphoneSlashCircle: SFSymbol { .init(rawValue: "iphone.slash.circle") }
@@ -3407,6 +4475,10 @@ public extension SFSymbol {
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     ///
+    /// Categories:
+    /// - Devices
+    /// - Multicolor
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
     static var iphoneSlashCircleFill: SFSymbol { .init(rawValue: "iphone.slash.circle.fill") }
 
@@ -3418,6 +4490,9 @@ public extension SFSymbol {
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     ///
+    /// Categories:
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone Smart Battery Case.
     static var iphoneSmartbatterycaseGen1: SFSymbol { .init(rawValue: "iphone.smartbatterycase.gen1") }
 
@@ -3428,6 +4503,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Devices
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone Smart Battery Case.
     static var iphoneSmartbatterycaseGen2: SFSymbol { .init(rawValue: "iphone.smartbatterycase.gen2") }
@@ -3454,6 +4532,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Multicolor
     /// - Hierarchical (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Health
+    /// - Multicolor
+    /// - Objects & Tools
     static var ivfluidBag: SFSymbol { .init(rawValue: "ivfluid.bag") }
 
     /// 􀼎
@@ -3463,6 +4546,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Multicolor
     /// - Hierarchical (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Health
+    /// - Multicolor
+    /// - Objects & Tools
     static var ivfluidBagFill: SFSymbol { .init(rawValue: "ivfluid.bag.fill") }
 
     /// 􀭛
@@ -3479,6 +4567,10 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Devices
+    /// - Keyboard
     static var keyboardFill: SFSymbol { .init(rawValue: "keyboard.fill") }
 
     /// 􀦔
@@ -3487,6 +4579,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Gaming
     static var lJoystickPressDown: SFSymbol { .init(rawValue: "l.joystick.press.down") }
 
     /// 􀫃
@@ -3496,6 +4591,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Gaming
     static var lJoystickPressDownFill: SFSymbol { .init(rawValue: "l.joystick.press.down.fill") }
 
     /// 􀿜
@@ -3504,6 +4602,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Gaming
     static var lJoystickTiltDown: SFSymbol { .init(rawValue: "l.joystick.tilt.down") }
 
     /// 􀿝
@@ -3512,6 +4613,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Gaming
     static var lJoystickTiltDownFill: SFSymbol { .init(rawValue: "l.joystick.tilt.down.fill") }
 
     /// 􀿖
@@ -3520,6 +4624,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Gaming
     static var lJoystickTiltLeft: SFSymbol { .init(rawValue: "l.joystick.tilt.left") }
 
     /// 􀿗
@@ -3528,6 +4635,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Gaming
     static var lJoystickTiltLeftFill: SFSymbol { .init(rawValue: "l.joystick.tilt.left.fill") }
 
     /// 􀿘
@@ -3536,6 +4646,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Gaming
     static var lJoystickTiltRight: SFSymbol { .init(rawValue: "l.joystick.tilt.right") }
 
     /// 􀿙
@@ -3544,6 +4657,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Gaming
     static var lJoystickTiltRightFill: SFSymbol { .init(rawValue: "l.joystick.tilt.right.fill") }
 
     /// 􀿚
@@ -3552,6 +4668,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Gaming
     static var lJoystickTiltUp: SFSymbol { .init(rawValue: "l.joystick.tilt.up") }
 
     /// 􀿛
@@ -3560,6 +4679,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Gaming
     static var lJoystickTiltUpFill: SFSymbol { .init(rawValue: "l.joystick.tilt.up.fill") }
 
     /// 􀰵
@@ -3567,6 +4689,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var lanyardcard: SFSymbol { .init(rawValue: "lanyardcard") }
 
     /// 􀰶
@@ -3574,6 +4699,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var lanyardcardFill: SFSymbol { .init(rawValue: "lanyardcard.fill") }
 
     /// 􀶿
@@ -3582,6 +4710,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
     static var laptopcomputerAndArrowDown: SFSymbol { .init(rawValue: "laptopcomputer.and.arrow.down") }
 
     /// 􁃂
@@ -3590,6 +4721,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor
+    ///
+    /// Categories:
+    /// - Devices
     /// - Multicolor
     static var laptopcomputerTrianglebadgeExclamationmark: SFSymbol { .init(rawValue: "laptopcomputer.trianglebadge.exclamationmark") }
 
@@ -3613,6 +4748,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Nature
+    /// - Variable
     static var leafCircle: SFSymbol { .init(rawValue: "leaf.circle") }
 
     /// 􁂭
@@ -3622,6 +4762,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Nature
     static var leafCircleFill: SFSymbol { .init(rawValue: "leaf.circle.fill") }
 
     /// 􁇖
@@ -3630,6 +4774,11 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Home
+    /// - Objects & Tools
+    /// - Variable
     static var lightbulbCircle: SFSymbol { .init(rawValue: "lightbulb.circle") }
 
     /// 􁇗
@@ -3639,6 +4788,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Home
+    /// - Multicolor
+    /// - Objects & Tools
     static var lightbulbCircleFill: SFSymbol { .init(rawValue: "lightbulb.circle.fill") }
 
     /// 􀘵
@@ -3647,6 +4801,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Variable
     static var line2HorizontalDecreaseCircle: SFSymbol { .init(rawValue: "line.2.horizontal.decrease.circle") }
 
     /// 􀘶
@@ -3655,6 +4812,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor
+    ///
+    /// Categories:
     /// - Multicolor
     static var line2HorizontalDecreaseCircleFill: SFSymbol { .init(rawValue: "line.2.horizontal.decrease.circle.fill") }
 
@@ -3671,6 +4831,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Gaming
+    /// - Variable
     static var line3HorizontalCircle: SFSymbol { .init(rawValue: "line.3.horizontal.circle") }
 
     /// 􀧲
@@ -3679,6 +4843,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor
+    ///
+    /// Categories:
+    /// - Gaming
     /// - Multicolor
     static var line3HorizontalCircleFill: SFSymbol { .init(rawValue: "line.3.horizontal.circle.fill") }
 
@@ -3695,6 +4863,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Variable
     static var line3HorizontalDecreaseCircle: SFSymbol { .init(rawValue: "line.3.horizontal.decrease.circle") }
 
     /// 􀌉
@@ -3703,6 +4874,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor
+    ///
+    /// Categories:
     /// - Multicolor
     static var line3HorizontalDecreaseCircleFill: SFSymbol { .init(rawValue: "line.3.horizontal.decrease.circle.fill") }
 
@@ -3713,6 +4887,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Variable
     static var linesMeasurementHorizontal: SFSymbol { .init(rawValue: "lines.measurement.horizontal") }
 
     /// 􀻧
@@ -3721,6 +4898,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Text Formatting
+    /// - Variable
     static var listBulletCircle: SFSymbol { .init(rawValue: "list.bullet.circle") }
 
     /// 􀻨
@@ -3730,6 +4911,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Text Formatting
     static var listBulletCircleFill: SFSymbol { .init(rawValue: "list.bullet.circle.fill") }
 
     /// 􀺿
@@ -3739,6 +4924,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Multicolor
     static var listBulletRectangleFill: SFSymbol { .init(rawValue: "list.bullet.rectangle.fill") }
 
     /// 􀹲
@@ -3772,6 +4960,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var locationMagnifyingglass: SFSymbol { .init(rawValue: "location.magnifyingglass") }
 
     /// 􀷌
@@ -3781,6 +4972,12 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Arrows
+    /// - Maps
+    /// - Multicolor
+    /// - Variable
     static var locationNorthCircle: SFSymbol { .init(rawValue: "location.north.circle") }
 
     /// 􀷍
@@ -3789,6 +4986,11 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor
+    ///
+    /// Categories:
+    /// - Arrows
+    /// - Maps
     /// - Multicolor
     static var locationNorthCircleFill: SFSymbol { .init(rawValue: "location.north.circle.fill") }
 
@@ -3799,6 +5001,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Arrows
+    /// - Maps
+    /// - Multicolor
     static var locationSquare: SFSymbol { .init(rawValue: "location.square") }
 
     /// 􀼼
@@ -3808,6 +5015,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Arrows
+    /// - Maps
+    /// - Multicolor
     static var locationSquareFill: SFSymbol { .init(rawValue: "location.square.fill") }
 
     /// 􀼒
@@ -3816,6 +5028,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
+    /// - Privacy & Security
     static var lockDesktopcomputer: SFSymbol { .init(rawValue: "lock.desktopcomputer") }
 
     /// 􀼑
@@ -3824,6 +5040,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
+    /// - Privacy & Security
     static var lockDisplay: SFSymbol { .init(rawValue: "lock.display") }
 
     /// 􀼕
@@ -3832,6 +5052,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
+    /// - Privacy & Security
     static var lockIpad: SFSymbol { .init(rawValue: "lock.ipad") }
 
     /// 􀼔
@@ -3840,6 +5064,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
+    /// - Privacy & Security
     static var lockIphone: SFSymbol { .init(rawValue: "lock.iphone") }
 
     /// 􀼓
@@ -3848,6 +5076,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
+    /// - Privacy & Security
     static var lockLaptopcomputer: SFSymbol { .init(rawValue: "lock.laptopcomputer") }
 
     /// 􀼡
@@ -3856,6 +5088,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
+    /// - Privacy & Security
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Watch.
     static var lockOpenApplewatch: SFSymbol { .init(rawValue: "lock.open.applewatch") }
@@ -3866,6 +5102,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
+    /// - Privacy & Security
     static var lockOpenDesktopcomputer: SFSymbol { .init(rawValue: "lock.open.desktopcomputer") }
 
     /// 􀼜
@@ -3874,6 +5114,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
+    /// - Privacy & Security
     static var lockOpenDisplay: SFSymbol { .init(rawValue: "lock.open.display") }
 
     /// 􀼠
@@ -3882,6 +5126,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
+    /// - Privacy & Security
     static var lockOpenIpad: SFSymbol { .init(rawValue: "lock.open.ipad") }
 
     /// 􀼟
@@ -3890,6 +5138,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
+    /// - Privacy & Security
     static var lockOpenIphone: SFSymbol { .init(rawValue: "lock.open.iphone") }
 
     /// 􀼞
@@ -3898,6 +5150,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
+    /// - Privacy & Security
     static var lockOpenLaptopcomputer: SFSymbol { .init(rawValue: "lock.open.laptopcomputer") }
 
     /// 􀾈
@@ -3934,6 +5190,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     ///
+    /// Categories:
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Mac Pro.
     static var macproGen1Fill: SFSymbol { .init(rawValue: "macpro.gen1.fill") }
 
@@ -3943,6 +5202,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     ///
+    /// Categories:
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Mac Pro.
     static var macproGen3Fill: SFSymbol { .init(rawValue: "macpro.gen3.fill") }
 
@@ -3951,6 +5213,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var magazine: SFSymbol { .init(rawValue: "magazine") }
 
     /// 􁂿
@@ -3958,6 +5223,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var magazineFill: SFSymbol { .init(rawValue: "magazine.fill") }
 
     /// 􀺰
@@ -3965,6 +5233,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Devices
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Magic Mouse.
     static var magicmouse: SFSymbol { .init(rawValue: "magicmouse") }
@@ -3974,6 +5245,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Devices
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Magic Mouse.
     static var magicmouseFill: SFSymbol { .init(rawValue: "magicmouse.fill") }
@@ -3985,6 +5259,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     ///
+    /// Categories:
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s MagSafe Battery Pack.
     static var magsafeBatterypack: SFSymbol { .init(rawValue: "magsafe.batterypack") }
 
@@ -3995,6 +5272,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     ///
+    /// Categories:
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s MagSafe Battery Pack.
     static var magsafeBatterypackFill: SFSymbol { .init(rawValue: "magsafe.batterypack.fill") }
 
@@ -4004,6 +5284,11 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Maps
+    /// - Objects & Tools
+    /// - Variable
     static var mapCircle: SFSymbol { .init(rawValue: "map.circle") }
 
     /// 􀻬
@@ -4013,6 +5298,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Maps
+    /// - Multicolor
+    /// - Objects & Tools
     static var mapCircleFill: SFSymbol { .init(rawValue: "map.circle.fill") }
 
     /// 􁇯
@@ -4022,6 +5312,12 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
+    ///
+    /// Categories:
+    /// - Maps
+    /// - Multicolor
+    /// - Objects & Tools
+    /// - Variable
     static var mappinSlashCircle: SFSymbol { .init(rawValue: "mappin.slash.circle") }
 
     /// 􁇰
@@ -4031,6 +5327,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Maps
+    /// - Multicolor
+    /// - Objects & Tools
     static var mappinSlashCircleFill: SFSymbol { .init(rawValue: "mappin.slash.circle.fill") }
 
     /// 􀽕
@@ -4040,6 +5341,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Maps
+    /// - Multicolor
+    /// - Objects & Tools
     static var mappinSquare: SFSymbol { .init(rawValue: "mappin.square") }
 
     /// 􀽖
@@ -4049,6 +5355,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Maps
+    /// - Multicolor
+    /// - Objects & Tools
     static var mappinSquareFill: SFSymbol { .init(rawValue: "mappin.square.fill") }
 
     /// 􀺥
@@ -4057,6 +5368,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
     static var mediastick: SFSymbol { .init(rawValue: "mediastick") }
 
     /// 􀧖
@@ -4064,6 +5378,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var memorychipFill: SFSymbol { .init(rawValue: "memorychip.fill") }
 
     /// 􀻒
@@ -4071,6 +5388,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var menucard: SFSymbol { .init(rawValue: "menucard") }
 
     /// 􀻓
@@ -4079,6 +5399,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Multicolor (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
     static var menucardFill: SFSymbol { .init(rawValue: "menucard.fill") }
 
     /// 􀼁
@@ -4202,6 +5526,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Math
     static var minusForwardslashPlus: SFSymbol { .init(rawValue: "minus.forwardslash.plus") }
 
     /// 􁁑
@@ -4237,6 +5564,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
     static var musicNoteTv: SFSymbol { .init(rawValue: "music.note.tv") }
 
     /// 􀒷
@@ -4246,6 +5576,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Devices
     static var musicNoteTvFill: SFSymbol { .init(rawValue: "music.note.tv.fill") }
 
     /// 􁅏
@@ -4254,6 +5587,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Connectivity
+    /// - Privacy & Security
     static var networkBadgeShieldHalfFilled: SFSymbol { .init(rawValue: "network.badge.shield.half.filled") }
 
     /// 􁆴
@@ -4262,6 +5599,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Objects & Tools
+    /// - Variable
     static var newspaperCircle: SFSymbol { .init(rawValue: "newspaper.circle") }
 
     /// 􁆵
@@ -4271,6 +5612,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
     static var newspaperCircleFill: SFSymbol { .init(rawValue: "newspaper.circle.fill") }
 
     /// 􁀽
@@ -4395,6 +5740,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Automotive
     static var parkingsign: SFSymbol { .init(rawValue: "parkingsign") }
 
     /// 􀷁
@@ -4403,6 +5751,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Automotive
+    /// - Variable
     static var parkingsignCircle: SFSymbol { .init(rawValue: "parkingsign.circle") }
 
     /// 􀷂
@@ -4412,6 +5764,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Automotive
+    /// - Multicolor
     static var parkingsignCircleFill: SFSymbol { .init(rawValue: "parkingsign.circle.fill") }
 
     /// 􀾞
@@ -4419,6 +5775,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Nature
     static var pawprint: SFSymbol { .init(rawValue: "pawprint") }
 
     /// 􁂰
@@ -4427,6 +5786,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Nature
+    /// - Variable
     static var pawprintCircle: SFSymbol { .init(rawValue: "pawprint.circle") }
 
     /// 􁂱
@@ -4436,6 +5799,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Nature
     static var pawprintCircleFill: SFSymbol { .init(rawValue: "pawprint.circle.fill") }
 
     /// 􀾟
@@ -4443,6 +5810,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Nature
     static var pawprintFill: SFSymbol { .init(rawValue: "pawprint.fill") }
 
     /// 􀺎
@@ -4457,6 +5827,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Shapes
     static var pentagon: SFSymbol { .init(rawValue: "pentagon") }
 
     /// 􁀻
@@ -4471,6 +5844,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Shapes
     static var pentagonFill: SFSymbol { .init(rawValue: "pentagon.fill") }
 
     /// 􁀋
@@ -4499,6 +5875,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Human
     static var person2CropSquareStack: SFSymbol { .init(rawValue: "person.2.crop.square.stack") }
 
     /// 􀓦
@@ -4508,6 +5887,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
     /// - Multicolor (iOS 17.1, macOS 14.1, tvOS 17.1, watchOS 10.1)
+    ///
+    /// Categories:
+    /// - Human
+    /// - Multicolor
     static var person2CropSquareStackFill: SFSymbol { .init(rawValue: "person.2.crop.square.stack.fill") }
 
     /// 􀾌
@@ -4517,6 +5900,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Human
+    /// - Variable
     static var person2Wave2: SFSymbol { .init(rawValue: "person.2.wave.2") }
 
     /// 􀾍
@@ -4526,6 +5913,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Human
+    /// - Variable
     static var person2Wave2Fill: SFSymbol { .init(rawValue: "person.2.wave.2.fill") }
 
     /// 􀻷
@@ -4535,6 +5926,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Human
+    /// - Variable
     static var person3Sequence: SFSymbol { .init(rawValue: "person.3.sequence") }
 
     /// 􀻸
@@ -4544,6 +5939,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Human
+    /// - Variable
     static var person3SequenceFill: SFSymbol { .init(rawValue: "person.3.sequence.fill") }
 
     /// 􁅖
@@ -4553,6 +5952,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Human
+    /// - Multicolor
     static var personBadgeClock: SFSymbol { .init(rawValue: "person.badge.clock") }
 
     /// 􁅗
@@ -4562,6 +5965,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Human
+    /// - Multicolor
     static var personBadgeClockFill: SFSymbol { .init(rawValue: "person.badge.clock.fill") }
 
     /// 􀿏
@@ -4570,6 +5977,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Human
     static var personCropArtframe: SFSymbol { .init(rawValue: "person.crop.artframe") }
 
     /// 􁂛
@@ -4579,6 +5989,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0)
+    ///
+    /// Categories:
+    /// - Human
+    /// - Multicolor
     static var personCropCircleBadge: SFSymbol { .init(rawValue: "person.crop.circle.badge") }
 
     /// 􁅔
@@ -4588,6 +6002,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Human
+    /// - Multicolor
     static var personCropCircleBadgeClock: SFSymbol { .init(rawValue: "person.crop.circle.badge.clock") }
 
     /// 􁅕
@@ -4597,6 +6015,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Human
+    /// - Multicolor
     static var personCropCircleBadgeClockFill: SFSymbol { .init(rawValue: "person.crop.circle.badge.clock.fill") }
 
     /// 􀉸
@@ -4606,6 +6028,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Multicolor
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Human
+    /// - Multicolor
     static var personCropCircleBadgeExclamationmarkFill: SFSymbol { .init(rawValue: "person.crop.circle.badge.exclamationmark.fill") }
 
     /// 􁂜
@@ -4615,6 +6041,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 18.0, macOS 15.0, tvOS 18.0, watchOS 11.0)
+    ///
+    /// Categories:
+    /// - Human
+    /// - Multicolor
     static var personCropCircleBadgeFill: SFSymbol { .init(rawValue: "person.crop.circle.badge.fill") }
 
     /// 􁃈
@@ -4624,6 +6054,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Human
+    /// - Multicolor
     static var personCropCircleBadgeMoon: SFSymbol { .init(rawValue: "person.crop.circle.badge.moon") }
 
     /// 􁃉
@@ -4633,6 +6067,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Human
+    /// - Multicolor
     static var personCropCircleBadgeMoonFill: SFSymbol { .init(rawValue: "person.crop.circle.badge.moon.fill") }
 
     /// 􀭾
@@ -4646,6 +6084,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Human
+    /// - Multicolor
     static var personCropCircleBadgeQuestionmarkFill: SymbolWith1Localization<Ar> { .init(rawValue: "person.crop.circle.badge.questionmark.fill") }
 
     /// 􀏻
@@ -4653,6 +6095,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Human
     static var personCropRectangleStack: SFSymbol { .init(rawValue: "person.crop.rectangle.stack") }
 
     /// 􀏼
@@ -4662,6 +6107,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical (iOS 17.1, macOS 14.1, tvOS 17.1, watchOS 10.1)
     /// - Multicolor (iOS 17.1, macOS 14.1, tvOS 17.1, watchOS 10.1)
+    ///
+    /// Categories:
+    /// - Human
+    /// - Multicolor
     static var personCropRectangleStackFill: SFSymbol { .init(rawValue: "person.crop.rectangle.stack.fill") }
 
     /// 􀦎
@@ -4670,6 +6119,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Human
     static var personCropSquareFilledAndAtRectangle: SFSymbol { .init(rawValue: "person.crop.square.filled.and.at.rectangle") }
 
     /// 􀿐
@@ -4679,6 +6131,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Human
     static var personCropSquareFilledAndAtRectangleFill: SFSymbol { .init(rawValue: "person.crop.square.filled.and.at.rectangle.fill") }
 
     /// 􀿒
@@ -4687,6 +6142,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Human
     static var personTextRectangle: SFSymbol { .init(rawValue: "person.text.rectangle") }
 
     /// 􀿓
@@ -4696,6 +6154,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Human
+    /// - Multicolor
     static var personTextRectangleFill: SFSymbol { .init(rawValue: "person.text.rectangle.fill") }
 
     /// 􁅇
@@ -4705,6 +6167,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Human
+    /// - Variable
     static var personWave2: SFSymbol { .init(rawValue: "person.wave.2") }
 
     /// 􁅈
@@ -4714,6 +6180,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Human
+    /// - Variable
     static var personWave2Fill: SFSymbol { .init(rawValue: "person.wave.2.fill") }
 
     /// 􁈨
@@ -4722,6 +6192,11 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Connectivity
+    /// - Objects & Tools
+    /// - Variable
     static var personalhotspotCircle: SFSymbol { .init(rawValue: "personalhotspot.circle") }
 
     /// 􁈩
@@ -4731,6 +6206,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Connectivity
+    /// - Multicolor
+    /// - Objects & Tools
     static var personalhotspotCircleFill: SFSymbol { .init(rawValue: "personalhotspot.circle.fill") }
 
     /// 􀼃
@@ -4767,6 +6247,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var photoArtframe: SFSymbol { .init(rawValue: "photo.artframe") }
 
     /// 􁂮
@@ -4775,6 +6258,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Camera & Photos
+    /// - Variable
     static var photoCircle: SFSymbol { .init(rawValue: "photo.circle") }
 
     /// 􁂯
@@ -4784,6 +6271,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Camera & Photos
+    /// - Multicolor
     static var photoCircleFill: SFSymbol { .init(rawValue: "photo.circle.fill") }
 
     /// 􁇂
@@ -4793,6 +6284,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Health
+    /// - Objects & Tools
+    /// - Variable
     static var pillsCircle: SFSymbol { .init(rawValue: "pills.circle") }
 
     /// 􁇃
@@ -4802,6 +6298,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Health
+    /// - Multicolor
+    /// - Objects & Tools
     static var pillsCircleFill: SFSymbol { .init(rawValue: "pills.circle.fill") }
 
     /// 􀽋
@@ -4811,6 +6312,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
     static var pinSquare: SFSymbol { .init(rawValue: "pin.square") }
 
     /// 􀽌
@@ -4820,6 +6325,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
     static var pinSquareFill: SFSymbol { .init(rawValue: "pin.square.fill") }
 
     /// 􁁍
@@ -4828,6 +6337,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
     static var platter2FilledIpad: SFSymbol { .init(rawValue: "platter.2.filled.ipad") }
 
     /// 􁁎
@@ -4836,6 +6348,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
     static var platter2FilledIpadLandscape: SFSymbol { .init(rawValue: "platter.2.filled.ipad.landscape") }
 
     /// 􀾩
@@ -4844,6 +6359,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
     static var platter2FilledIphone: SFSymbol { .init(rawValue: "platter.2.filled.iphone") }
 
     /// 􀾪
@@ -4852,6 +6370,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
     static var platter2FilledIphoneLandscape: SFSymbol { .init(rawValue: "platter.2.filled.iphone.landscape") }
 
     /// 􁃇
@@ -4860,6 +6381,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Watch.
     static var platterBottomApplewatchCase: SFSymbol { .init(rawValue: "platter.bottom.applewatch.case") }
@@ -4871,6 +6395,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     ///
+    /// Categories:
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Watch.
     static var platterFilledBottomApplewatchCase: SFSymbol { .init(rawValue: "platter.filled.bottom.applewatch.case") }
 
@@ -4881,6 +6408,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     ///
+    /// Categories:
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Watch.
     static var platterFilledTopApplewatchCase: SFSymbol { .init(rawValue: "platter.filled.top.applewatch.case") }
 
@@ -4890,6 +6420,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Watch.
     static var platterTopApplewatchCase: SFSymbol { .init(rawValue: "platter.top.applewatch.case") }
@@ -4909,6 +6442,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Variable
     static var playRectangleOnRectangleCircle: SFSymbol { .init(rawValue: "play.rectangle.on.rectangle.circle") }
 
     /// 􁃁
@@ -4918,6 +6454,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Multicolor
     static var playRectangleOnRectangleCircleFill: SFSymbol { .init(rawValue: "play.rectangle.on.rectangle.circle.fill") }
 
     /// 􀾭
@@ -4935,6 +6474,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Media
     static var playSquare: SFSymbol { .init(rawValue: "play.square") }
 
     /// 􀽎
@@ -4944,6 +6486,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Media
+    /// - Multicolor
     static var playSquareFill: SFSymbol { .init(rawValue: "play.square.fill") }
 
     /// 􀅺
@@ -4951,6 +6497,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Math
     static var plusForwardslashMinus: SFSymbol { .init(rawValue: "plus.forwardslash.minus") }
 
     /// 􀤱
@@ -4959,6 +6508,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var plusRectangleOnFolderFill: SFSymbol { .init(rawValue: "plus.rectangle.on.folder.fill") }
 
     /// 􀴥
@@ -4976,6 +6528,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 17.0, macOS 14.0, tvOS 17.0, watchOS 10.0)
+    ///
+    /// Categories:
+    /// - Multicolor
     static var point3ConnectedTrianglepathDotted: SFSymbol { .init(rawValue: "point.3.connected.trianglepath.dotted") }
 
     /// 􁅥
@@ -4984,6 +6539,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor
+    ///
+    /// Categories:
     /// - Multicolor
     static var point3FilledConnectedTrianglepathDotted: SFSymbol { .init(rawValue: "point.3.filled.connected.trianglepath.dotted") }
 
@@ -5035,6 +6593,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Keyboard
+    /// - Variable
     static var powerCircle: SFSymbol { .init(rawValue: "power.circle") }
 
     /// 􀷄
@@ -5044,6 +6606,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Keyboard
+    /// - Multicolor
     static var powerCircleFill: SFSymbol { .init(rawValue: "power.circle.fill") }
 
     /// 􀆩
@@ -5051,6 +6617,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Keyboard
     static var powerDotted: SFSymbol { .init(rawValue: "power.dotted") }
 
     /// 􀡷
@@ -5058,6 +6627,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var powerplug: SFSymbol { .init(rawValue: "powerplug") }
 
     /// 􀡸
@@ -5065,6 +6637,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var powerplugFill: SFSymbol { .init(rawValue: "powerplug.fill") }
 
     /// 􀪿
@@ -5072,6 +6647,10 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Devices
+    /// - Objects & Tools
     static var printerDotmatrixFilledAndPaper: SFSymbol { .init(rawValue: "printer.dotmatrix.filled.and.paper") }
 
     /// 􀪾
@@ -5079,6 +6658,10 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Devices
+    /// - Objects & Tools
     static var printerFilledAndPaper: SFSymbol { .init(rawValue: "printer.filled.and.paper") }
 
     /// 􀥭
@@ -5086,6 +6669,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var puzzlepieceExtension: SFSymbol { .init(rawValue: "puzzlepiece.extension") }
 
     /// 􀥮
@@ -5093,6 +6679,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var puzzlepieceExtensionFill: SFSymbol { .init(rawValue: "puzzlepiece.extension.fill") }
 
     /// 􀿨
@@ -5130,6 +6719,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Multicolor
     static var questionmarkAppFill: SymbolWith1Localization<Ar> { .init(rawValue: "questionmark.app.fill") }
 
     /// 􁈐
@@ -5137,6 +6729,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Communication
     static var quoteClosing: SFSymbol { .init(rawValue: "quote.closing") }
 
     /// 􁈏
@@ -5144,6 +6739,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Communication
     static var quoteOpening: SFSymbol { .init(rawValue: "quote.opening") }
 
     /// 􀦕
@@ -5152,6 +6750,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Gaming
     static var rJoystickPressDown: SFSymbol { .init(rawValue: "r.joystick.press.down") }
 
     /// 􀫄
@@ -5161,6 +6762,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Gaming
     static var rJoystickPressDownFill: SFSymbol { .init(rawValue: "r.joystick.press.down.fill") }
 
     /// 􀿤
@@ -5169,6 +6773,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Gaming
     static var rJoystickTiltDown: SFSymbol { .init(rawValue: "r.joystick.tilt.down") }
 
     /// 􀿥
@@ -5177,6 +6784,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Gaming
     static var rJoystickTiltDownFill: SFSymbol { .init(rawValue: "r.joystick.tilt.down.fill") }
 
     /// 􀿞
@@ -5185,6 +6795,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Gaming
     static var rJoystickTiltLeft: SFSymbol { .init(rawValue: "r.joystick.tilt.left") }
 
     /// 􀿟
@@ -5193,6 +6806,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Gaming
     static var rJoystickTiltLeftFill: SFSymbol { .init(rawValue: "r.joystick.tilt.left.fill") }
 
     /// 􀿠
@@ -5201,6 +6817,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Gaming
     static var rJoystickTiltRight: SFSymbol { .init(rawValue: "r.joystick.tilt.right") }
 
     /// 􀿡
@@ -5209,6 +6828,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Gaming
     static var rJoystickTiltRightFill: SFSymbol { .init(rawValue: "r.joystick.tilt.right.fill") }
 
     /// 􀿢
@@ -5217,6 +6839,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Gaming
     static var rJoystickTiltUp: SFSymbol { .init(rawValue: "r.joystick.tilt.up") }
 
     /// 􀿣
@@ -5225,6 +6850,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Gaming
     static var rJoystickTiltUpFill: SFSymbol { .init(rawValue: "r.joystick.tilt.up.fill") }
 
     /// 􀭙
@@ -5292,6 +6920,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Human
     static var rectangleAndHandPointUpLeft: SFSymbol { .init(rawValue: "rectangle.and.hand.point.up.left") }
 
     /// 􀪥
@@ -5300,6 +6931,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Human
     static var rectangleAndHandPointUpLeftFill: SFSymbol { .init(rawValue: "rectangle.and.hand.point.up.left.fill") }
 
     /// 􀪧
@@ -5308,6 +6942,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Human
     static var rectangleAndHandPointUpLeftFilled: SFSymbol { .init(rawValue: "rectangle.and.hand.point.up.left.filled") }
 
     /// 􀿰
@@ -5377,6 +7014,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Human
     static var rectangleFilledAndHandPointUpLeft: SFSymbol { .init(rawValue: "rectangle.filled.and.hand.point.up.left") }
 
     /// 􁁫
@@ -5613,6 +7253,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Gaming
+    /// - Variable
     static var rectangleOnRectangleCircle: SFSymbol { .init(rawValue: "rectangle.on.rectangle.circle") }
 
     /// 􀤾
@@ -5622,6 +7266,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Gaming
+    /// - Multicolor
     static var rectangleOnRectangleCircleFill: SFSymbol { .init(rawValue: "rectangle.on.rectangle.circle.fill") }
 
     /// 􀻯
@@ -5630,6 +7278,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Variable
     static var rectangleOnRectangleSlashCircle: SFSymbol { .init(rawValue: "rectangle.on.rectangle.slash.circle") }
 
     /// 􀻰
@@ -5638,6 +7289,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor
+    ///
+    /// Categories:
     /// - Multicolor
     static var rectangleOnRectangleSlashCircleFill: SFSymbol { .init(rawValue: "rectangle.on.rectangle.slash.circle.fill") }
 
@@ -5655,6 +7309,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Gaming
     static var rectangleOnRectangleSquare: SFSymbol { .init(rawValue: "rectangle.on.rectangle.square") }
 
     /// 􀽐
@@ -5664,6 +7321,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Gaming
+    /// - Multicolor
     static var rectangleOnRectangleSquareFill: SFSymbol { .init(rawValue: "rectangle.on.rectangle.square.fill") }
 
     /// 􀻵
@@ -6144,6 +7805,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Human
+    /// - Multicolor
     static var rectangleStackBadgePersonCropFill: SFSymbol { .init(rawValue: "rectangle.stack.badge.person.crop.fill") }
 
     /// 􀽙
@@ -6153,6 +7818,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Multicolor
     static var rectangleStackBadgePlay: SFSymbol { .init(rawValue: "rectangle.stack.badge.play") }
 
     /// 􀽚
@@ -6162,6 +7830,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Multicolor
     static var rectangleStackBadgePlayFill: SFSymbol { .init(rawValue: "rectangle.stack.badge.play.fill") }
 
     /// 􀿯
@@ -6243,6 +7914,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
     static var restartCircleFill: SFSymbol { .init(rawValue: "restart.circle.fill") }
 
     /// 􁂆
@@ -6250,6 +7924,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Arrows
     static var returnLeft: SFSymbol { .init(rawValue: "return.left") }
 
     /// 􁂇
@@ -6257,6 +7934,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Arrows
     static var returnRight: SFSymbol { .init(rawValue: "return.right") }
 
     /// 􁇔
@@ -6265,6 +7945,11 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Editing
+    /// - Objects & Tools
+    /// - Variable
     static var scissorsCircle: SFSymbol { .init(rawValue: "scissors.circle") }
 
     /// 􁇕
@@ -6274,6 +7959,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Editing
+    /// - Multicolor
+    /// - Objects & Tools
     static var scissorsCircleFill: SFSymbol { .init(rawValue: "scissors.circle.fill") }
 
     /// 􁈌
@@ -6281,6 +7971,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Transportation
     static var scooter: SFSymbol { .init(rawValue: "scooter") }
 
     /// 􀤈
@@ -6288,6 +7981,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var screwdriver: SFSymbol { .init(rawValue: "screwdriver") }
 
     /// 􀤉
@@ -6295,6 +7991,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var screwdriverFill: SFSymbol { .init(rawValue: "screwdriver.fill") }
 
     /// 􁁝
@@ -6304,6 +8003,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Objects & Tools
+    /// - Variable
     static var sensorTagRadiowavesForward: SFSymbol { .init(rawValue: "sensor.tag.radiowaves.forward") }
 
     /// 􁁞
@@ -6313,6 +8016,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Objects & Tools
+    /// - Variable
     static var sensorTagRadiowavesForwardFill: SFSymbol { .init(rawValue: "sensor.tag.radiowaves.forward.fill") }
 
     /// 􁃑
@@ -6322,6 +8029,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Human
+    /// - Variable
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s SharePlay.
     static var shareplay: SFSymbol { .init(rawValue: "shareplay") }
@@ -6333,6 +8044,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     ///
+    /// Categories:
+    /// - Human
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s SharePlay.
     static var shareplaySlash: SFSymbol { .init(rawValue: "shareplay.slash") }
 
@@ -6341,6 +8055,10 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Objects & Tools
+    /// - Privacy & Security
     static var shieldLefthalfFilled: SFSymbol { .init(rawValue: "shield.lefthalf.filled") }
 
     /// 􀲊
@@ -6349,6 +8067,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Objects & Tools
+    /// - Privacy & Security
     static var shieldLefthalfFilledSlash: SFSymbol { .init(rawValue: "shield.lefthalf.filled.slash") }
 
     /// 􀿮
@@ -6356,6 +8078,10 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Objects & Tools
+    /// - Privacy & Security
     static var shieldRighthalfFilled: SFSymbol { .init(rawValue: "shield.righthalf.filled") }
 
     /// 􁇈
@@ -6364,6 +8090,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Objects & Tools
+    /// - Variable
     static var shippingboxCircle: SFSymbol { .init(rawValue: "shippingbox.circle") }
 
     /// 􁇉
@@ -6373,6 +8103,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
     static var shippingboxCircleFill: SFSymbol { .init(rawValue: "shippingbox.circle.fill") }
 
     /// 􀶟
@@ -6381,6 +8115,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Variable
     static var sleepCircle: SFSymbol { .init(rawValue: "sleep.circle") }
 
     /// 􀶠
@@ -6389,6 +8126,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor
+    ///
+    /// Categories:
     /// - Multicolor
     static var sleepCircleFill: SFSymbol { .init(rawValue: "sleep.circle.fill") }
 
@@ -6411,6 +8151,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Editing
     static var sliderHorizontalBelowSquareFilledAndSquare: SFSymbol { .init(rawValue: "slider.horizontal.below.square.filled.and.square") }
 
     /// 􀍷
@@ -6419,6 +8162,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Accessibility
+    /// - Variable
     static var smallcircleFilledCircle: SFSymbol { .init(rawValue: "smallcircle.filled.circle") }
 
     /// 􀕩
@@ -6428,6 +8175,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Accessibility
+    /// - Multicolor
     static var smallcircleFilledCircleFill: SFSymbol { .init(rawValue: "smallcircle.filled.circle.fill") }
 
     /// 􀇥
@@ -6436,6 +8187,11 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Automotive
+    /// - Nature
+    /// - Weather
     static var snowflake: SFSymbol { .init(rawValue: "snowflake") }
 
     /// 􁇌
@@ -6444,6 +8200,12 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Automotive
+    /// - Nature
+    /// - Variable
+    /// - Weather
     static var snowflakeCircle: SFSymbol { .init(rawValue: "snowflake.circle") }
 
     /// 􁇍
@@ -6453,6 +8215,12 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Automotive
+    /// - Multicolor
+    /// - Nature
+    /// - Weather
     static var snowflakeCircleFill: SFSymbol { .init(rawValue: "snowflake.circle.fill") }
 
     /// 􁇥
@@ -6461,6 +8229,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 18.1, macOS 15.1, tvOS 18.1, watchOS 11.1)
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var sparkleMagnifyingglass: SFSymbol { .init(rawValue: "sparkle.magnifyingglass") }
 
     /// 􀰙
@@ -6478,6 +8249,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
     static var sparklesTv: SFSymbol { .init(rawValue: "sparkles.tv") }
 
     /// 􁅌
@@ -6487,6 +8261,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Devices
     static var sparklesTvFill: SFSymbol { .init(rawValue: "sparkles.tv.fill") }
 
     /// 􀾏
@@ -6496,6 +8273,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
     static var speakerBadgeExclamationmark: SFSymbol { .init(rawValue: "speaker.badge.exclamationmark") }
 
     /// 􀾐
@@ -6505,6 +8286,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
     static var speakerBadgeExclamationmarkFill: SFSymbol { .init(rawValue: "speaker.badge.exclamationmark.fill") }
 
     /// 􀻁
@@ -6513,6 +8298,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Objects & Tools
+    /// - Variable
     static var speakerCircle: SFSymbol { .init(rawValue: "speaker.circle") }
 
     /// 􀻂
@@ -6522,6 +8311,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
     static var speakerCircleFill: SFSymbol { .init(rawValue: "speaker.circle.fill") }
 
     /// 􀯯
@@ -6600,6 +8393,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Variable
     static var squareAndArrowUpCircle: SFSymbol { .init(rawValue: "square.and.arrow.up.circle") }
 
     /// 􁅆
@@ -6609,6 +8405,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Multicolor
     static var squareAndArrowUpCircleFill: SFSymbol { .init(rawValue: "square.and.arrow.up.circle.fill") }
 
     /// 􁂚
@@ -6617,6 +8416,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor
+    ///
+    /// Categories:
     /// - Multicolor
     static var squareAndArrowUpTrianglebadgeExclamationmark: SFSymbol { .init(rawValue: "square.and.arrow.up.trianglebadge.exclamationmark") }
 
@@ -6694,6 +8496,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Accessibility
     static var squareGrid3x3BottomleftFilled: SFSymbol { .init(rawValue: "square.grid.3x3.bottomleft.filled") }
 
     /// 􀦻
@@ -6702,6 +8507,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Accessibility
     static var squareGrid3x3BottommiddleFilled: SFSymbol { .init(rawValue: "square.grid.3x3.bottommiddle.filled") }
 
     /// 􀦼
@@ -6710,6 +8518,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Accessibility
     static var squareGrid3x3BottomrightFilled: SFSymbol { .init(rawValue: "square.grid.3x3.bottomright.filled") }
 
     /// 􀦸
@@ -6718,6 +8529,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Accessibility
     static var squareGrid3x3MiddleFilled: SFSymbol { .init(rawValue: "square.grid.3x3.middle.filled") }
 
     /// 􀦷
@@ -6726,6 +8540,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Accessibility
     static var squareGrid3x3MiddleleftFilled: SFSymbol { .init(rawValue: "square.grid.3x3.middleleft.filled") }
 
     /// 􀦹
@@ -6734,6 +8551,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Accessibility
     static var squareGrid3x3MiddlerightFilled: SFSymbol { .init(rawValue: "square.grid.3x3.middleright.filled") }
 
     /// 􀫐
@@ -6750,6 +8570,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Accessibility
     static var squareGrid3x3TopleftFilled: SFSymbol { .init(rawValue: "square.grid.3x3.topleft.filled") }
 
     /// 􀦵
@@ -6758,6 +8581,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Accessibility
     static var squareGrid3x3TopmiddleFilled: SFSymbol { .init(rawValue: "square.grid.3x3.topmiddle.filled") }
 
     /// 􀦶
@@ -6766,6 +8592,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Accessibility
     static var squareGrid3x3ToprightFilled: SFSymbol { .init(rawValue: "square.grid.3x3.topright.filled") }
 
     /// 􀾘
@@ -6810,6 +8639,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Multicolor
     static var squareTextSquareFill: SFSymbol { .init(rawValue: "square.text.square.fill") }
 
     /// 􀪛
@@ -6825,6 +8657,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Communication
     static var starBubble: SFSymbol { .init(rawValue: "star.bubble") }
 
     /// 􁂫
@@ -6834,6 +8669,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Communication
+    /// - Multicolor
     static var starBubbleFill: SFSymbol { .init(rawValue: "star.bubble.fill") }
 
     /// 􀋄
@@ -6842,6 +8681,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Multicolor (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    ///
+    /// Categories:
+    /// - Multicolor
     static var starLeadinghalfFilled: SFSymbol { .init(rawValue: "star.leadinghalf.filled") }
 
     /// 􁇄
@@ -6850,6 +8692,11 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Health
+    /// - Objects & Tools
+    /// - Variable
     static var stethoscopeCircle: SFSymbol { .init(rawValue: "stethoscope.circle") }
 
     /// 􁇅
@@ -6859,6 +8706,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Health
+    /// - Multicolor
+    /// - Objects & Tools
     static var stethoscopeCircleFill: SFSymbol { .init(rawValue: "stethoscope.circle.fill") }
 
     /// 􀶉
@@ -6866,6 +8718,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var suitcase: SFSymbol { .init(rawValue: "suitcase") }
 
     /// 􀶋
@@ -6874,6 +8729,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var suitcaseCart: SFSymbol { .init(rawValue: "suitcase.cart") }
 
     /// 􀶌
@@ -6882,6 +8740,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var suitcaseCartFill: SFSymbol { .init(rawValue: "suitcase.cart.fill") }
 
     /// 􀶊
@@ -6889,6 +8750,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var suitcaseFill: SFSymbol { .init(rawValue: "suitcase.fill") }
 
     /// 􀻞
@@ -6925,6 +8789,12 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Keyboard
+    /// - Nature
+    /// - Variable
+    /// - Weather
     static var sunMaxCircle: SFSymbol { .init(rawValue: "sun.max.circle") }
 
     /// 􀷏
@@ -6934,6 +8804,12 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Keyboard
+    /// - Multicolor
+    /// - Nature
+    /// - Weather
     static var sunMaxCircleFill: SFSymbol { .init(rawValue: "sun.max.circle.fill") }
 
     /// 􀏦
@@ -6943,6 +8819,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Multicolor
     static var tablecellsFillBadgeEllipsis: SFSymbol { .init(rawValue: "tablecells.fill.badge.ellipsis") }
 
     /// 􀽁
@@ -6951,6 +8830,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var tagSquare: SFSymbol { .init(rawValue: "tag.square") }
 
     /// 􀽂
@@ -6960,6 +8842,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
     static var tagSquareFill: SFSymbol { .init(rawValue: "tag.square.fill") }
 
     /// 􀻐
@@ -6968,6 +8854,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var takeoutbagAndCupAndStraw: SFSymbol { .init(rawValue: "takeoutbag.and.cup.and.straw") }
 
     /// 􀻑
@@ -6976,6 +8865,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var takeoutbagAndCupAndStrawFill: SFSymbol { .init(rawValue: "takeoutbag.and.cup.and.straw.fill") }
 
     /// 􀴦
@@ -6985,6 +8877,12 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Accessibility
+    /// - Communication
+    /// - Multicolor
+    /// - Variable
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Teletype feature.
     static var teletypeAnswerCircle: SFSymbol { .init(rawValue: "teletype.answer.circle") }
@@ -6997,6 +8895,11 @@ public extension SFSymbol {
     /// - Hierarchical
     /// - Multicolor
     ///
+    /// Categories:
+    /// - Accessibility
+    /// - Communication
+    /// - Multicolor
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Teletype feature.
     static var teletypeAnswerCircleFill: SFSymbol { .init(rawValue: "teletype.answer.circle.fill") }
 
@@ -7007,6 +8910,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
     static var testtube2: SFSymbol { .init(rawValue: "testtube.2") }
 
     /// 􀹃
@@ -7024,6 +8931,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var theatermasks: SFSymbol { .init(rawValue: "theatermasks") }
 
     /// 􁂻
@@ -7032,6 +8942,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Objects & Tools
+    /// - Variable
     static var theatermasksCircle: SFSymbol { .init(rawValue: "theatermasks.circle") }
 
     /// 􁂼
@@ -7041,6 +8955,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
     static var theatermasksCircleFill: SFSymbol { .init(rawValue: "theatermasks.circle.fill") }
 
     /// 􀺨
@@ -7049,6 +8967,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var theatermasksFill: SFSymbol { .init(rawValue: "theatermasks.fill") }
 
     /// 􀼮
@@ -7056,6 +8977,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Transportation
     static var trainSideFrontCar: SFSymbol { .init(rawValue: "train.side.front.car") }
 
     /// 􀼯
@@ -7063,6 +8987,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Transportation
     static var trainSideMiddleCar: SFSymbol { .init(rawValue: "train.side.middle.car") }
 
     /// 􀼰
@@ -7070,6 +8997,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Transportation
     static var trainSideRearCar: SFSymbol { .init(rawValue: "train.side.rear.car") }
 
     /// 􀜝
@@ -7077,6 +9007,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Transportation
     static var tramFillTunnel: SFSymbol { .init(rawValue: "tram.fill.tunnel") }
 
     /// 􀡛
@@ -7085,6 +9018,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    ///
+    /// Categories:
+    /// - Camera & Photos
+    /// - Editing
     static var trapezoidAndLineHorizontal: SFSymbol { .init(rawValue: "trapezoid.and.line.horizontal") }
 
     /// 􀞑
@@ -7092,6 +9029,10 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Camera & Photos
+    /// - Editing
     static var trapezoidAndLineHorizontalFill: SFSymbol { .init(rawValue: "trapezoid.and.line.horizontal.fill") }
 
     /// 􀡠
@@ -7100,6 +9041,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    ///
+    /// Categories:
+    /// - Camera & Photos
+    /// - Editing
     static var trapezoidAndLineVertical: SFSymbol { .init(rawValue: "trapezoid.and.line.vertical") }
 
     /// 􀞐
@@ -7107,6 +9052,10 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Camera & Photos
+    /// - Editing
     static var trapezoidAndLineVerticalFill: SFSymbol { .init(rawValue: "trapezoid.and.line.vertical.fill") }
 
     /// 􀿍
@@ -7116,6 +9065,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
     static var trashSlashCircle: SFSymbol { .init(rawValue: "trash.slash.circle") }
 
     /// 􀿎
@@ -7125,6 +9078,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
     static var trashSlashCircleFill: SFSymbol { .init(rawValue: "trash.slash.circle.fill") }
 
     /// 􀿔
@@ -7134,6 +9091,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
     static var trashSlashSquare: SFSymbol { .init(rawValue: "trash.slash.square") }
 
     /// 􀿕
@@ -7143,6 +9104,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
     static var trashSlashSquareFill: SFSymbol { .init(rawValue: "trash.slash.square.fill") }
 
     /// 􀼽
@@ -7152,6 +9117,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
     static var trashSquare: SFSymbol { .init(rawValue: "trash.square") }
 
     /// 􀼾
@@ -7161,6 +9130,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
+    /// - Objects & Tools
     static var trashSquareFill: SFSymbol { .init(rawValue: "trash.square.fill") }
 
     /// 􁀹
@@ -7209,6 +9182,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var tshirt: SFSymbol { .init(rawValue: "tshirt") }
 
     /// 􀾡
@@ -7216,6 +9192,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var tshirtFill: SFSymbol { .init(rawValue: "tshirt.fill") }
 
     /// 􀷘
@@ -7271,6 +9250,10 @@ public extension SFSymbol {
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     ///
+    /// Categories:
+    /// - Communication
+    /// - Multicolor
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.
     static var videoBadgeEllipsis: SFSymbol { .init(rawValue: "video.badge.ellipsis") }
 
@@ -7282,6 +9265,10 @@ public extension SFSymbol {
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
     ///
+    /// Categories:
+    /// - Communication
+    /// - Multicolor
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.
     static var videoFillBadgeEllipsis: SFSymbol { .init(rawValue: "video.fill.badge.ellipsis") }
 
@@ -7291,6 +9278,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor
+    ///
+    /// Categories:
+    /// - Communication
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.
@@ -7304,6 +9295,10 @@ public extension SFSymbol {
     /// - Hierarchical
     /// - Multicolor
     ///
+    /// Categories:
+    /// - Communication
+    /// - Multicolor
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s FaceTime app.
     static var videoSquareFill: SFSymbol { .init(rawValue: "video.square.fill") }
 
@@ -7313,6 +9308,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Variable
     static var wakeCircle: SFSymbol { .init(rawValue: "wake.circle") }
 
     /// 􀶢
@@ -7322,6 +9320,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
     static var wakeCircleFill: SFSymbol { .init(rawValue: "wake.circle.fill") }
 
     /// 􀺗
@@ -7330,6 +9331,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple Watch.
     static var watchfaceApplewatchCase: SFSymbol { .init(rawValue: "watchface.applewatch.case") }
@@ -7367,6 +9371,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Communication
+    /// - Multicolor
+    /// - Variable
     static var waveformBadgeExclamationmark: SFSymbol { .init(rawValue: "waveform.badge.exclamationmark") }
 
     /// 􀸷
@@ -7376,6 +9385,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Communication
+    /// - Multicolor
+    /// - Variable
     static var waveformBadgeMinus: SFSymbol { .init(rawValue: "waveform.badge.minus") }
 
     /// 􀸶
@@ -7385,6 +9399,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Communication
+    /// - Multicolor
+    /// - Variable
     static var waveformBadgePlus: SFSymbol { .init(rawValue: "waveform.badge.plus") }
 
     /// 􀷖
@@ -7394,6 +9413,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Connectivity
+    /// - Multicolor
+    /// - Variable
     static var wifiCircle: SFSymbol { .init(rawValue: "wifi.circle") }
 
     /// 􀷗
@@ -7403,6 +9427,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Connectivity
+    /// - Multicolor
+    /// - Variable
     static var wifiCircleFill: SFSymbol { .init(rawValue: "wifi.circle.fill") }
 
     /// 􀽗
@@ -7412,6 +9441,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Connectivity
+    /// - Multicolor
+    /// - Variable
     static var wifiSquare: SFSymbol { .init(rawValue: "wifi.square") }
 
     /// 􀽘
@@ -7421,6 +9455,11 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Connectivity
+    /// - Multicolor
+    /// - Variable
     static var wifiSquareFill: SFSymbol { .init(rawValue: "wifi.square.fill") }
 
     /// 􀺾
@@ -7430,6 +9469,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 26.0, macOS 26.0, tvOS 26.0, watchOS 26.0)
+    ///
+    /// Categories:
+    /// - Multicolor
     static var xmarkApp: SFSymbol { .init(rawValue: "xmark.app") }
 
     /// 􀻀
@@ -7439,5 +9481,8 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor (iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0)
+    ///
+    /// Categories:
+    /// - Multicolor
     static var xmarkAppFill: SFSymbol { .init(rawValue: "xmark.app.fill") }
 }

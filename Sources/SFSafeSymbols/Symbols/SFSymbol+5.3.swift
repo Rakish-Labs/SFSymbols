@@ -10,6 +10,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     ///
+    /// Categories:
+    /// - Health
+    /// - Nature
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Meditation in Fitness+.
     static var appleMeditate: SFSymbol { .init(rawValue: "apple.meditate") }
 
@@ -19,6 +23,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Health
+    /// - Nature
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Meditation in Fitness+.
     static var appleMeditateSquareStack: SFSymbol { .init(rawValue: "apple.meditate.square.stack") }
@@ -30,6 +38,10 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     ///
+    /// Categories:
+    /// - Health
+    /// - Nature
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s Meditation in Fitness+.
     static var appleMeditateSquareStackFill: SFSymbol { .init(rawValue: "apple.meditate.square.stack.fill") }
 
@@ -39,6 +51,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Variable
     static var appleTerminalCircle: SFSymbol { .init(rawValue: "apple.terminal.circle") }
 
     /// 􂝖
@@ -47,6 +62,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor
+    ///
+    /// Categories:
     /// - Multicolor
     static var appleTerminalCircleFill: SFSymbol { .init(rawValue: "apple.terminal.circle.fill") }
 
@@ -65,6 +83,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     /// - Multicolor
+    ///
+    /// Categories:
+    /// - Multicolor
     static var arrowDownAppDashedTrianglebadgeExclamationmark: SFSymbol { .init(rawValue: "arrow.down.app.dashed.trianglebadge.exclamationmark") }
 
     /// 􂛍
@@ -72,6 +93,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Devices
     static var audioJackMono: SFSymbol { .init(rawValue: "audio.jack.mono") }
 
     /// 􂛋
@@ -79,6 +103,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Devices
     static var audioJackStereo: SFSymbol { .init(rawValue: "audio.jack.stereo") }
 
     /// 􂕙
@@ -87,6 +114,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor
+    ///
+    /// Categories:
+    /// - Devices
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
@@ -100,6 +131,10 @@ public extension SFSymbol {
     /// - Hierarchical
     /// - Multicolor
     ///
+    /// Categories:
+    /// - Devices
+    /// - Multicolor
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
     static var ipadGen1BadgeExclamationmark: SFSymbol { .init(rawValue: "ipad.gen1.badge.exclamationmark") }
 
@@ -109,6 +144,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor
+    ///
+    /// Categories:
+    /// - Devices
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
@@ -122,6 +161,10 @@ public extension SFSymbol {
     /// - Hierarchical
     /// - Multicolor
     ///
+    /// Categories:
+    /// - Devices
+    /// - Multicolor
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
     static var ipadGen2BadgeExclamationmark: SFSymbol { .init(rawValue: "ipad.gen2.badge.exclamationmark") }
 
@@ -131,6 +174,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor
+    ///
+    /// Categories:
+    /// - Devices
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
@@ -144,6 +191,10 @@ public extension SFSymbol {
     /// - Hierarchical
     /// - Multicolor
     ///
+    /// Categories:
+    /// - Devices
+    /// - Multicolor
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPad.
     static var ipadLandscapeBadgeExclamationmark: SFSymbol { .init(rawValue: "ipad.landscape.badge.exclamationmark") }
 
@@ -153,6 +204,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor
+    ///
+    /// Categories:
+    /// - Devices
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
@@ -166,6 +221,10 @@ public extension SFSymbol {
     /// - Hierarchical
     /// - Multicolor
     ///
+    /// Categories:
+    /// - Devices
+    /// - Multicolor
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
     static var iphoneGen1BadgeExclamationmark: SFSymbol { .init(rawValue: "iphone.gen1.badge.exclamationmark") }
 
@@ -175,6 +234,10 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    /// - Multicolor
+    ///
+    /// Categories:
+    /// - Devices
     /// - Multicolor
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
@@ -188,6 +251,10 @@ public extension SFSymbol {
     /// - Hierarchical
     /// - Multicolor
     ///
+    /// Categories:
+    /// - Devices
+    /// - Multicolor
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s iPhone.
     static var iphoneGen3BadgeExclamationmark: SFSymbol { .init(rawValue: "iphone.gen3.badge.exclamationmark") }
 
@@ -196,6 +263,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var medalStar: SFSymbol { .init(rawValue: "medal.star") }
 
     /// 􂙤
@@ -203,6 +273,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Objects & Tools
     static var medalStarFill: SFSymbol { .init(rawValue: "medal.star.fill") }
 
     /// 􂞶
@@ -219,6 +292,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Communication
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Apple’s translation features.
     static var translate: SFSymbol { .init(rawValue: "translate") }

@@ -9,6 +9,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     ///
+    /// Categories:
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Pill.
     static var beatsPill: SFSymbol { .init(rawValue: "beats.pill") }
 
@@ -17,6 +20,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Devices
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Pill.
     static var beatsPillFill: SFSymbol { .init(rawValue: "beats.pill.fill") }
@@ -28,6 +34,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     ///
+    /// Categories:
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Solo Buds.
     static var beatsSolobuds: SFSymbol { .init(rawValue: "beats.solobuds") }
 
@@ -37,6 +46,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     ///
+    /// Categories:
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Solo Buds case.
     static var beatsSolobudsChargingcase: SFSymbol { .init(rawValue: "beats.solobuds.chargingcase") }
 
@@ -45,6 +57,9 @@ public extension SFSymbol {
     ///
     /// Layersets:
     /// - Monochrome
+    ///
+    /// Categories:
+    /// - Devices
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Solo Buds case.
     static var beatsSolobudsChargingcaseFill: SFSymbol { .init(rawValue: "beats.solobuds.chargingcase.fill") }
@@ -56,6 +71,9 @@ public extension SFSymbol {
     /// - Monochrome
     /// - Hierarchical
     ///
+    /// Categories:
+    /// - Devices
+    ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Solo Buds.
     static var beatsSolobudsLeft: SFSymbol { .init(rawValue: "beats.solobuds.left") }
 
@@ -65,6 +83,9 @@ public extension SFSymbol {
     /// Layersets:
     /// - Monochrome
     /// - Hierarchical
+    ///
+    /// Categories:
+    /// - Devices
     ///
     /// - Warning: ⚠️ This symbol may not be modified and may only be used to refer to Beats Solo Buds.
     static var beatsSolobudsRight: SFSymbol { .init(rawValue: "beats.solobuds.right") }
