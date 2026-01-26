@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-SFSafeSymbols is a Swift library providing type-safe access to Apple's SF Symbols. Instead of using error-prone string literals like `UIImage(systemName: "circle.fill")`, developers use type-safe API: `UIImage(systemSymbol: .circleFill)`.
+SFSymbols is a Swift library providing type-safe access to Apple's SF Symbols. Instead of using error-prone string literals like `UIImage(systemName: "circle.fill")`, developers use type-safe API: `UIImage(systemSymbol: .circleFill)`.
 
 ## Build and Test
 
@@ -16,7 +16,7 @@ swift build
 swift test
 
 # Run a single test
-swift test --filter SFSafeSymbolsTests.LocalizationTests
+swift test --filter SFSymbolsTests.LocalizationTests
 
 # Regenerate symbol definitions from SF Symbols metadata
 make generate-symbol
@@ -26,14 +26,14 @@ make generate-symbol
 
 **Two distinct components:**
 
-1. **Main Library** (`Sources/SFSafeSymbols/`) - The Swift package users import
+1. **Main Library** (`Sources/SFSymbols/`) - The Swift package users import
    - `Symbols/SFSymbol.swift` - Core class with dynamic features (localization, categories, variants)
    - `Symbols/SFSymbol+*.swift` - Generated files containing symbol definitions per SF Symbols version
    - `Initializers/` - Extensions for SwiftUI, UIKit, and AppKit integration
 
 2. **Code Generator** (`SymbolsGenerator/`) - Standalone macOS tool that generates symbol definitions
    - Reads Apple metadata files from `Resources/` (plist files, symbol names)
-   - Outputs Swift files to `Sources/SFSafeSymbols/Symbols/`
+   - Outputs Swift files to `Sources/SFSymbols/Symbols/`
    - Run via `make generate-symbol`
 
 ## Updating for New SF Symbols Versions

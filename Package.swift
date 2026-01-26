@@ -3,20 +3,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "SFSafeSymbols",
+    name: "SFSymbols",
     platforms: [.iOS(.v12), .tvOS(.v12), .watchOS(.v5), .macOS(.v10_14), .visionOS(.v1)],
     products: [
-        .library(name: "SFSafeSymbols", targets: ["SFSafeSymbols"]),
+        .library(name: "SFSymbols", targets: ["SFSymbols"])
     ],
     dependencies: [],
     targets: [
         .target(
-            name: "SFSafeSymbols",
+            name: "SFSymbols",
             dependencies: []
         ),
         .testTarget(
-            name: "SFSafeSymbolsTests",
-            dependencies: ["SFSafeSymbols"]
-        )
+            name: "SFSymbolsTests",
+            dependencies: ["SFSymbols"]
+        ),
     ]
 )
