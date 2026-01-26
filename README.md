@@ -53,7 +53,7 @@ UIImage(systemName: "circle.fill")
 
 It didn't take long until [first ideas came up](https://twitter.com/simjp/status/1135642837322588161?s=12) to make these icons **accessible in a safe way** using a framework. And this is just the basic idea behind `SFSymbols`!
 
-Furthermore, with `SFSafeSymbols`...
+Furthermore, with `SFSymbols`...
 
 - ... you can be sure your symbol code won't crash due to typos or symbol availability issues. This is because **all symbols are tested via a CI** (on the latest iOS & tvOS versions and also some earlier OS versions).
 - ... lookups in the SF Symbols app (e. g. about available **layersets**, available **localizations** & the **look of the symbol**) are no longer needed because every symbol is **documented in code**.
