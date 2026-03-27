@@ -15,6 +15,8 @@ struct Symbol: Hashable {
     var isBaseLocalizationAvailable: Bool
     var availableLocalizations: [Availability: Set<Localization>]
     var availableLayersets: [Availability: Set<String>]
+    var categories: Set<Category>
+    var keywords: Set<String>
     var olderSymbol: ScannedSymbol?
     var newerSymbol: ScannedSymbol?
 
@@ -188,3 +190,122 @@ enum Localization: String, Hashable, CaseIterable {
 
 private let noDots: (String) -> String = { $0.replacingOccurrences(of: ".", with: "") }
 private let decapFirst: (String) -> String = { String($0.prefix(1)).lowercased() + String($0.dropFirst()) }
+
+enum Category: String, Hashable, CaseIterable, Comparable {
+    case accessibility
+    case arrows
+    case automotive
+    case cameraandphotos
+    case commerce
+    case communication
+    case connectivity
+    case devices
+    case editing
+    case fitness
+    case gaming
+    case health
+    case home
+    case human
+    case indices
+    case keyboard
+    case maps
+    case math
+    case media
+    case multicolor
+    case nature
+    case objectsandtools
+    case privacyandsecurity
+    case shapes
+    case textformatting
+    case time
+    case transportation
+    case variable
+    case weather
+    case whatsnew
+
+    var title: String {
+        switch self {
+            case .accessibility: return "Accessibility"
+            case .arrows: return "Arrows"
+            case .automotive: return "Automotive"
+            case .cameraandphotos: return "Camera & Photos"
+            case .commerce: return "Commerce"
+            case .communication: return "Communication"
+            case .connectivity: return "Connectivity"
+            case .devices: return "Devices"
+            case .editing: return "Editing"
+            case .fitness: return "Fitness"
+            case .gaming: return "Gaming"
+            case .health: return "Health"
+            case .home: return "Home"
+            case .human: return "Human"
+            case .indices: return "Indices"
+            case .keyboard: return "Keyboard"
+            case .maps: return "Maps"
+            case .math: return "Math"
+            case .media: return "Media"
+            case .multicolor: return "Multicolor"
+            case .nature: return "Nature"
+            case .objectsandtools: return "Objects & Tools"
+            case .privacyandsecurity: return "Privacy & Security"
+            case .shapes: return "Shapes"
+            case .textformatting: return "Text Formatting"
+            case .time: return "Time"
+            case .transportation: return "Transportation"
+            case .variable: return "Variable"
+            case .weather: return "Weather"
+            case .whatsnew: return "What's New"
+        }
+    }
+
+    var variableName: String {
+        rawValue
+    }
+
+    static func < (lhs: Category, rhs: Category) -> Bool {
+        return lhs.title < rhs.title
+    }
+}
+
+enum VariantType: String, Hashable, CaseIterable {
+    // Terminal variants (usually appear last in symbol names)
+    case fill
+    case inverse
+    case filled
+
+    // Shape container variants
+    case circle
+    case square
+    case rectangle
+
+    // Modification variants
+    case slash
+    case badge
+    case stack
+
+    // Style variants
+    case dashed
+    case dotted
+
+    var title: String {
+        switch self {
+            case .fill: return "Fill"
+            case .inverse: return "Inverse"
+            case .filled: return "Filled"
+            case .circle: return "Circle"
+            case .square: return "Square"
+            case .rectangle: return "Rectangle"
+            case .slash: return "Slash"
+            case .badge: return "Badge"
+            case .stack: return "Stack"
+            case .dashed: return "Dashed"
+            case .dotted: return "Dotted"
+        }
+    }
+}
+
+struct VariantInfo: Hashable {
+    var baseSymbolName: String
+    var variantType: VariantType
+    var variantSuffix: String
+}

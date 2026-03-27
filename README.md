@@ -51,9 +51,9 @@ At WWDC 2019, Apple announced a new library of icons that came included with tha
 UIImage(systemName: "circle.fill")
 ```
 
-It didn't take long until [first ideas came up](https://twitter.com/simjp/status/1135642837322588161?s=12) to make these icons **accessible in a safe way** using a framework. And this is just the basic idea behind `SFSafeSymbols`!
+It didn't take long until [first ideas came up](https://twitter.com/simjp/status/1135642837322588161?s=12) to make these icons **accessible in a safe way** using a framework. And this is just the basic idea behind `SFSymbols`!
 
-Furthermore, with `SFSafeSymbols`...
+Furthermore, with `SFSymbols`...
 
 - ... you can be sure your symbol code won't crash due to typos or symbol availability issues. This is because **all symbols are tested via a CI** (on the latest iOS & tvOS versions and also some earlier OS versions).
 - ... lookups in the SF Symbols app (e. g. about available **layersets**, available **localizations** & the **look of the symbol**) are no longer needed because every symbol is **documented in code**.
@@ -92,23 +92,23 @@ The following SF Symbols versions are currently supported:
 
 ## Installation
 
-`SFSafeSymbols` can be installed via the **Swift Package Manager (recommended)**, Carthage or CocoaPods.
+`SFSymbols` can be installed via the **Swift Package Manager (recommended)**, Carthage or CocoaPods.
 
 Supported platforms are `iOS (11.0+)`, `macOS (10.13+)`, `tvOS (11.0+)` and `watchOS (4.0+)`, although the actual functionality is of course only accessible starting with `iOS 13.0`, `macOS 11.0`, `tvOS 13.0` and `watchOS 6.0`.
 
 ### Swift Package Manager (Xcode-integrated)
 
-To integrate SFSafeSymbols using the Xcode-built-in SPM, choose `File` → `Swift Packages` → `Add Package Dependency`. Enter the following url: `https://github.com/SFSafeSymbols/SFSafeSymbols` and click `Next`. When asked about the version, leave the preselection and click `Next`. In the following step, select `SFSafeSymbols` as the package product and click `Finish`.
+To integrate SFSymbols using the Xcode-built-in SPM, choose `File` → `Swift Packages` → `Add Package Dependency`. Enter the following url: `https://github.com/Rakish-Labs/SFSymbols` and click `Next`. When asked about the version, leave the preselection and click `Next`. In the following step, select `SFSymbols` as the package product and click `Finish`.
 
 ### Swift Package Manager (standalone)
 
 To integrate using the standalone version of Apple's Swift Package Manager, add the following as a dependency to your `Package.swift`:
 
 ```swift
-.package(url: "https://github.com/SFSafeSymbols/SFSafeSymbols.git", .upToNextMajor(from: "7.0.0"))
+.package(url: "https://github.com/Rakish-Labs/SFSymbols.git", .upToNextMajor(from: "7.0.0"))
 ```
 
-After specifying `"SFSafeSymbols"` as a dependency of the target in which you want to use it, run `swift package update`.
+After specifying `"SFSymbols"` as a dependency of the target in which you want to use it, run `swift package update`.
 
 ### Carthage
 
@@ -189,11 +189,11 @@ NSImage(systemSymbol: SFSymbol.eCircleFill, accessibilityDescription: "some.desc
 
 ### Localization
 
-SF Symbols can come with multiple different localizations. `SFSafeSymbols` exposes localization the following way:
+SF Symbols can come with multiple different localizations. `SFSymbols` exposes localization the following way:
 
 - Implicit localization: When using an `SFSymbol`, it gets automatically localized to the user's current locale - nothing to do on your part. This behavior is managed by Apple's system implementation of SF Symbols.
 
-- Explicit localization: `SFSafeSymbols` lets you access a symbol's localized versions as follows:
+- Explicit localization: `SFSymbols` lets you access a symbol's localized versions as follows:
 
   ```swift
   // 1. Static localization:
@@ -217,12 +217,12 @@ Attention: Serializing and deserializing `SFSymbol`s currently makes them lose t
 
 ### Swiftlint
 
-You may want to leverage [SwiftLint](https://github.com/realm/SwiftLint) to ensure that `SFSafeSymbols` is used when appropriate. In your `.swiftlint.yml` file, you can add a custom rule like this:
+You may want to leverage [SwiftLint](https://github.com/realm/SwiftLint) to ensure that `SFSymbols` is used when appropriate. In your `.swiftlint.yml` file, you can add a custom rule like this:
 ```yml
 custom_rules:
   sf_safe_symbol:
     name: "Safe SFSymbol"
-    message: "Use `SFSafeSymbols` via `systemSymbol` parameters for type safety."
+    message: "Use `SFSymbols` via `systemSymbol` parameters for type safety."
     regex: "(Image\\(systemName:)|(NSImage\\(symbolName:)|(Label[^,]+?,\\s*systemImage:)|(UIApplicationShortcutIcon\\(systemImageName:)"
     severity: warning
 ```
