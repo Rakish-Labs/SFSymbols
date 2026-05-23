@@ -2,7 +2,7 @@
 
 import SwiftUI
 import XCTest
-@testable import SFSafeSymbols
+@testable import SFSymbols
 
 class ImageExtensionTests: XCTestCase {
     /// Tests, whether the `Image` retrieved via SFSafeSymbols is equal to the one retrieved via the `String` initializer

@@ -1,6 +1,6 @@
 #if canImport(SwiftUI)
 
-@testable import SFSafeSymbols
+@testable import SFSymbols
 import XCTest
 import SwiftUI
 

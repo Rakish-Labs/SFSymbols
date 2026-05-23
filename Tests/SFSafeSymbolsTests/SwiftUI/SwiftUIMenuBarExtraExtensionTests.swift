@@ -1,6 +1,6 @@
 #if canImport(SwiftUI) && os(macOS) && !targetEnvironment(macCatalyst)
 
-@testable import SFSafeSymbols
+@testable import SFSymbols
 import XCTest
 import SwiftUI
 

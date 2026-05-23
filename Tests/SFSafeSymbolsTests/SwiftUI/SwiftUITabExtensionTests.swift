@@ -2,7 +2,7 @@
 
 import SwiftUI
 import XCTest
-@testable import SFSafeSymbols
+@testable import SFSymbols
 
 class TabExtensionTests: XCTestCase {
     /// Tests, whether the `Tab` retrieved via SFSafeSymbols can be retrieved without a crash

@@ -1,4 +1,4 @@
-@testable import SFSafeSymbols
+@testable import SFSymbols
 
 #if os(iOS) || targetEnvironment(macCatalyst) || os(visionOS)
 

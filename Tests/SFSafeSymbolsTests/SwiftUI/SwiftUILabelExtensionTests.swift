@@ -2,7 +2,7 @@
 
 import SwiftUI
 import XCTest
-@testable import SFSafeSymbols
+@testable import SFSymbols
 
 class LabelExtensionTests: XCTestCase {
     /// Tests, whether the `Label` retrieved via SFSafeSymbols can be retrieved without a crash

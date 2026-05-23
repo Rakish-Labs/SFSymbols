@@ -1,5 +1,5 @@
 
-@testable import SFSafeSymbols
+@testable import SFSymbols
 import XCTest
 
 import AppIntents
